@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>Index-学习</title>
+<script src="../js/jquery-1.11.1.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="../js/echarts.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="../js/china.js" type="text/javascript" charset="utf-8"></script>
+<script src="../js/sichuan.js" type="text/javascript" charset="utf-8"></script>
+</head>
+<body>
+<div id="main" style="height: 500%;width:900px;background:white;margin:20px 0 0;"></div>
+
+<script type="text/javascript">
+function randomData() {  
+    return Math.round(Math.random()*500);  
+};
+
+var mydata = [  
+    {name: '旌阳区',value: '100' },{name: '中江县',value: randomData() },  
+    {name: '罗江县',value: randomData() },{name: '绵竹市',value: randomData() },  
+    {name: '什邡市',value: randomData() },{name: '广汉市',value: randomData() }];
+    
+$.get('../js/deyang_modify.json',function(citymap){
+	echarts.registerMap('deyang', citymap);
+
+var optionMap = {  
+                backgroundColor: '#FFFFFF',  
+                title: {  
+                    text: '德阳地图大数据',  
+                    subtext: '',  
+                    x:'center'  
+                },  
+                tooltip : {  
+                    trigger: 'item'  
+                },  
+                
+                //左侧小导航图标
+                visualMap: {  
+                    show : true,  
+                    x: 'left',  
+                    y: 'center',  
+                    splitList: [   
+                        {start: 500, end:600},{start: 400, end: 500},  
+                        {start: 300, end: 400},{start: 200, end: 300},  
+                        {start: 100, end: 200},{start: 0, end: 100},  
+                    ],  
+                    color: ['#5475f5', '#9feaa5', '#85daef','#74e2ca', '#e6ac53', '#9fb5ea']  
+                },  
+                
+                //配置属性
+                series: [{  
+                    name: '数据',  
+                    type: 'map',  
+                    mapType: 'deyang',   
+                    roam: true,  
+                    label: {  
+                        normal: {  
+                            show: true  //省份名称  
+                        },  
+                        emphasis: {  
+                            show: false  
+                        }  
+                    },  
+                    data:mydata  //数据
+                }]  
+            };  
+       
+        //初始化echarts实例
+        var myChart = echarts.init(document.getElementById('main'));
+
+        //使用制定的配置项和数据显示图表
+        myChart.setOption(optionMap);
+        window.onresize = myChart.resize;
+});
+	</script>
+</body>
+</html>

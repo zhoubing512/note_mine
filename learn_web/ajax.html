@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.w3.org/1999/xhtml">
+<head lang="en">
+    <meta charset="UTF-8"/>
+    <title></title>
+   <!--  <link rel="stylesheet" type="text/css" th:href="@{/css/bootstrap.min.css}"/> -->
+</head>
+<body ms-controller="viewmodel">
+<h1 th:text="${msg}">Hello World</h1>
+<button type="button" class="btn btn-primary" style="margin: 10px;" ms-click="@request">{{@text}}</button>
+<table class="table table-striped">
+    <thead>
+    <tr>
+        <td class="active">id</td>
+        <td class="success">姓名</td>
+        <td class="warning">性别</td>
+        <td class="danger">年龄</td>
+        <td class="info">角色</td>
+    </tr>
+    </thead>
+    <tbody>
+    <tr ms-for="el in @datalist">
+        <td >{{el.id}}</td>
+        <td >{{el.name}}</td>
+        <td>{{el.sex}}</td>
+        <td >{{el.age}}</td>
+        <td >{{el.role}}</td>
+    </tr>
+    </tbody>
+</table>
+</body>
+<!-- <script th:src="@{/js/jquery-2.1.1.min.js}"></script>
+<script th:src="@{/js/avalon.js}"></script>
+<script th:src="@{/js/bootstrap.min.js}"></script>
+<script th:src="@{/js/myscript.js}"></script> -->
+<script src="../js/jquery-1.11.1.min.js"></script>
+<script src="../js/echarts.min.js"></script>
+<script src="../js/china.js"></script>
+<script type="text/javascript">
+//定义一个avalonjs的控制器
+/* var viewmodel = avalon.define({
+    //id必须和页面上定义的ms-controller名字相同，否则无法控制页面
+    $id: "viewmodel",
+    datalist: {},
+    text: "请求数据",
+
+    request: function () {
+        $.ajax({
+            type: "post",
+            url: "/user/getUserList",    //向后端请求数据的url
+            data: {},
+            success: function (data) {
+                $('button').removeClass("btn-primary").addClass("btn-success").attr('disabled', true);
+
+                viewmodel.datalist = data;
+
+                viewmodel.text = "数据请求成功，已渲染";
+            }
+        });
+    }
+}); */
+var datalist = [];
+$(function(){
+
+/* $.ajax({
+    type: "post",
+    url: "/user/getUserList",    //向后端请求数据的url
+    data: {},
+    async: false,
+    success: function (data) {
+
+        datalist = data;
+alert(datalist);
+    }
+    
+
+}); */
+})
+ $.ajax({
+    type: "post",
+    url: "/user/getUserList",    //向后端请求数据的url
+    data: {},
+    async: false,
+    success: function (data) {
+
+        datalist = data;
+alert(datalist);
+    }
+    
+
+}); 
+alert(datalist);
+console.log(datalist);
+console.log(data);
+
+</script>
+</html>

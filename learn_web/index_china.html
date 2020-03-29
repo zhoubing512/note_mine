@@ -1,0 +1,387 @@
+<!doctype html>
+<html>
+
+<head>
+<meta charset="utf-8">
+<title>基于Echarts中国地图</title>
+<script src="../js/jquery-1.11.1.min.js"></script>
+<script src="../js/echarts.min.js"></script>
+<script src="../js/china.js"></script>
+</head>
+
+<body>
+
+<div id="container" style="height: 800px;width:1200px;background:white;margin:20px 0 0;"></div>
+
+<script type="text/javascript">
+var days = ['01-20', '01-21', '01-22', '01-23', '01-24', '01-25', '01-26', '01-27', '01-28', '01-29', '01-30', ];
+
+var province = ['湖北', '广东', '浙江', '湖南', '河南', '安徽', '重庆', '山东', '江西', '四川', '江苏', '北京', '福建', '上海', '广西', '河北', '陕西', '云南', '海南', '黑龙江', '辽宁', '山西', '天津', '甘肃', '内蒙古', '新疆', '宁夏', '吉林', '贵州', '青海', '西藏', '澳门', '香港', '台湾'];
+
+var data = [
+    [270, 14, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+    [375, 26, 5, 1, 1, 0, 5, 1, 2, 2, 0, 10, 0, 9, 0, 0, 0, 1, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+    [444, 32, 10, 9, 5, 4, 9, 6, 3, 8, 1, 14, 1, 16, 2, 1, 0, 1, 4, 2, 2, 1, 3, 0, 0, 0, 0, 1, 3, 0, 0, 0, 0, 0],
+    [549, 53, 43, 24, 9, 15, 27, 9, 7, 15, 9, 26, 5, 20, 13, 2, 3, 2, 8, 4, 4, 1, 5, 2, 1, 2, 2, 3, 3, 0, 0, 1, 2, 0],
+    [729, 78, 62, 43, 32, 39, 57, 21, 18, 28, 18, 36, 10, 33, 23, 8, 5, 5, 8, 9, 12, 6, 8, 4, 2, 3, 3, 4, 4, 0, 0, 2, 4, 2],
+    [1052, 98, 104, 69, 83, 60, 75, 39, 36, 44, 31, 51, 18, 40, 33, 13, 15, 11, 19, 15, 17, 9, 10, 7, 7, 4, 4, 4, 5, 1, 0, 3, 5, 4],
+    [1423, 146, 128, 100, 128, 70, 110, 63, 48, 69, 47, 68, 29, 53, 46, 18, 22, 16, 22, 21, 22, 13, 14, 14, 11, 5, 7, 6, 7, 4, 0, 4, 6, 6],
+    [2714, 188, 173, 143, 168, 106, 132, 87, 72, 90, 70, 80, 59, 66, 51, 33, 35, 26, 33, 30, 27, 20, 23, 19, 13, 10, 10, 8, 9, 6, 0, 6, 8, 7],
+    [3354, 241, 296, 221, 206, 152, 147, 121, 109, 108, 99, 91, 82, 80, 58, 48, 46, 51, 43, 37, 36, 27, 24, 24, 16, 13, 12, 9, 9, 6, 0, 6, 10, 8],
+    [4586, 272, 296, 221, 206, 152, 165, 130, 162, 108, 99, 111, 84, 96, 58, 48, 56, 55, 43, 38, 39, 35, 27, 24, 16, 13, 12, 9, 9, 6, 1, 7, 10, 8],
+    [5806, 354, 428, 277, 278, 200, 206, 158, 162, 142, 129, 121, 101, 128, 87, 65, 66, 76, 46, 44, 45, 39, 31, 29, 18, 14, 17, 14, 12, 8, 1, 7, 12, 9]
+];
+
+var sum = []
+
+for(var i=0;i<data.length;i++){
+        sum[i]=0
+    for(var j=0;j<data[i].length;j++){
+        
+        sum[i]=sum[i]+data[i][j]
+    }
+    
+}
+
+var yqyData = [
+    days,
+    sum
+]
+
+option = {
+    baseOption: {
+        
+      
+        
+
+        timeline: {
+            axisType: 'category',
+            // realtime: false,
+            // loop: false,
+            autoPlay: true,
+            playInterval: 2000,
+            symbolSize: 12,
+            left: '5%',
+            right: '5%',
+            bottom: '0%',
+            width: '90%',
+            // controlStyle: {
+            //     position: 'left'
+            // },
+            data: days,
+            tooltip: {
+                formatter: days
+            },
+        },
+
+        tooltip: {
+            show: true,
+            formatter: function(params) {
+                return params.name + '：' + params.data['value']
+            },
+        },
+        visualMap: {
+            type: 'piecewise',
+            pieces: [{
+                    min: 1001,
+                    color: '#73240D'
+                },
+                {
+                    min: 501,
+                    max: 1000,
+                    color: '#BB0000'
+                },
+                {
+                    min: 251,
+                    max: 500,
+                    color: '#BD430A'
+                },
+                {
+                    min: 101,
+                    max: 250,
+                    color: '#E08150'
+                },
+                {
+                    min: 11,
+                    max: 100,
+                    color: '#E9B090'
+                },
+                {
+                    min: 1,
+                    max: 10,
+                    color: '#F2DDD2'
+                },
+                {
+                    value: 0,
+                    color: 'white'
+                }
+            ],
+            orient: 'vertical',
+            itemWidth: 25,
+            itemHeight: 15,
+            showLabel: true,
+            seriesIndex: [0],
+
+            textStyle: {
+                color: '#7B93A7'
+            },
+            bottom: '10%',
+            left: "5%",
+        },
+        grid:[ {
+            right: '5%',
+            top: '20%',
+            bottom: '10%',
+            width: '20%'
+        },
+        {
+            right: '54%',
+            top: '12%',
+            bottom: '75%',
+            width: '40%'
+        }
+        
+        ],
+        
+        xAxis:[ {
+            min: 0,
+            max: 4000,
+            show: false
+        
+            
+        },{
+            data: yqyData[0],
+            gridIndex: 1
+        }], //折线图x轴数据赋值，指定坐标信息,
+        yAxis: [{
+            inverse: true,
+            offset: '2',
+            'type': 'category',
+            data: '',
+            nameTextStyle: {
+                color: '#fff'
+            },
+            axisTick: {
+                show: false,
+            },
+            axisLabel: {
+                //rotate:45,
+                textStyle: {
+                    fontSize: 14,
+                    color: '#000000',
+                },
+                interval: 0
+            },
+            axisLine: {
+                show: false,
+                lineStyle: {
+                    color: '#333'
+                },
+            },
+            splitLine: {
+                show: false,
+                lineStyle: {
+                    color: '#333'
+                }
+            },
+        },
+        
+        
+        {
+            name: '人数',
+            
+            inverse: false,
+            offset: '2',
+            'type': 'category',
+            nameTextStyle: {
+                color: '#000'
+            },
+            axisTick: {
+                show: true,
+            },
+            axisLabel: {
+                //rotate:45,
+                textStyle: {
+                    fontSize: 14,
+                    color: '#000000',
+                },
+                interval: 'auto'
+            },
+            axisLine: {
+                show: true,
+                lineStyle: {
+                    color: '#333'
+                },
+            },
+            splitLine: {
+                show: false,
+                lineStyle: {
+                    color: '#333'
+                }
+            },
+            gridIndex: 1
+        }
+        ]
+        
+        
+        ,
+        geo: {
+            map: 'china',
+            right: '35%',
+            left: '5%',
+            label: {
+                emphasis: {
+                    show: false,
+                }
+            },
+            itemStyle: {
+                emphasis: {
+                    areaColor: '#00FF00'
+                }
+            }
+        },
+        series: [
+            
+        
+            {
+                name: 'mapSer',
+                type: 'map',
+                map: 'china',
+                roam: false,
+                geoIndex: 0,
+                label: {
+                    show: false,
+                },
+            },
+            {
+                'name': '',
+                'type': 'bar',
+                zlevel: 2,
+                barWidth: '40%',
+                label: {
+                    normal: {
+                        show: true,
+                        fontSize: 14,
+                        position: 'right',
+                        formatter: '{c}'
+                    }
+                },
+            },
+            
+            {
+            name:'确诊新增曲线',
+            type: 'line',
+            xAxisIndex: 1, //指定折线图数据显示到：grid坐标系：0
+            yAxisIndex: 1,
+            data: yqyData[1] //折线图y轴数据赋值
+        }
+       
+        ],
+
+    },
+    animationDurationUpdate: 3000,
+    animationEasingUpdate: 'quinticInOut',
+    options: []
+};
+for (var n = 0; n < days.length; n++) {
+
+    var res = [];
+    for (j = 0; j < data[n].length; j++) {
+        res.push({
+            name: province[j],
+            value: data[n][j]
+        });
+    }
+    res.sort(function(a, b) {
+        return b.value - a.value;
+    }).slice(0, 6);
+
+    res.sort(function(a, b) {
+        return a.value - b.value;
+    });
+    var res1 = [];
+    var res2 = [];
+    for (t = 0; t < 10; t++) {
+        res1[t] = res[res.length - 1 - t].name;
+        res2[t] = res[res.length - 1 - t].value;
+    }
+    console.log(res1);
+    console.log("----------------");
+    console.log(province);
+    option.options.push({
+        title: [{
+                text: days[n] + '新型冠状病毒全国确诊感染人数'+sum[n],
+                textStyle: {
+                    color: '#2D3E53',
+                    fontSize: 28
+                },
+                left: 20,
+                top: 20,
+            },
+            {
+                show: true,
+                text: '感染人数前十的省份',
+                textStyle: {
+                    color: '#2D3E53',
+                    fontSize: 18
+                },
+                right: '10%',
+                top: '15%'
+            }
+        ],
+        yAxis: {
+            data: res1,
+            
+        },
+        series: [{
+            type: 'map',
+            data: res
+        }, {
+            type: 'bar',
+            data: res2,
+            itemStyle: {
+                normal: {
+                    color: function(params) {
+                        // build a color map as your need.
+                        var colorList = [{
+                                colorStops: [{
+                                    offset: 0,
+                                    color: '#FF0000' // 0% 处的颜色
+                                }, {
+                                    offset: 1,
+                                    color: '#990000' // 100% 处的颜色
+                                }]
+                            },
+                            {
+                                colorStops: [{
+                                    offset: 0,
+                                    color: '#00C0FA' // 0% 处的颜色
+                                }, {
+                                    offset: 1,
+                                    color: '#2F95FA' // 100% 处的颜色
+                                }]
+                            }
+                        ];
+                        if (params.dataIndex < 3) {
+                            return colorList[0]
+                        } else {
+                            return colorList[1]
+                        }
+                    },
+                }
+            },
+        }]
+    });
+};
+
+    //初始化echarts实例
+    var myChart = echarts.init(document.getElementById('container'));
+    //使用制定的配置项和数据显示图表
+    myChart.setOption(option);
+</script>
+
+<div style="text-align:center;clear:both;">
+</div>
+
+</body>
+</html>
