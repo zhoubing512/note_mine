@@ -1,7 +1,7 @@
 
 import json
 
-with open("E:/Desktop/grid_dy_conv_20200326_utf8.json",'r',encoding='UTF-8') as f:
+with open("E:/git_learning_file/grid_dy_conv_20200326_utf8.json",'r',encoding='UTF-8') as f:
     geojson_dy = json.load(f)
 
 
@@ -101,4 +101,17 @@ for i in range(len(geojson_dy)):
 
 file = open('E:/Desktop/zb_work/notes/note_mine/deyang_geojson_gd.json','w')
 file.write(json.dumps(deyang_json))
+file.close()
+
+#生成变量随机值，json文件
+js_wangge_json_list = []
+js_wangge_json_str = '{"name":1,"value":"randomData()"}'
+js_wangge_json = json.loads(js_wangge_json_str)
+for i in range(len(geojson_dy)):
+    js_wangge_json = json.loads(js_wangge_json_str)
+    js_wangge_json["name"] = geojson_dy[i]['name']
+    js_wangge_json_list.append(js_wangge_json)
+
+file = open('E:/git_learning_file/js_wangge_json.json','w',encoding='utf-8')
+file.write(str(js_wangge_json_list))
 file.close()
