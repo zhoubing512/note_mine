@@ -1,0 +1,770 @@
+<!doctype html>
+<html>
+
+<head>
+<meta charset="utf-8">
+<title>基于Echarts德阳地图</title>
+<script src="../js/jquery-1.11.1.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="../js/echarts.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="../js/china.js" type="text/javascript" charset="utf-8"></script>
+</head>
+
+<body bgcolor="#0f2c70">
+
+<div id="container" style="height: 750%;widht:100%;margin:20px 0 0;"></div>
+
+<script type="text/javascript">
+$.get('../js/deyang.json',function(citymap){
+	echarts.registerMap('deyang', citymap);
+	var colors = [
+	    ["#1DE9B6", "#FFFFFF", "#04B9FF", "#5DBD32", "#FF0000", "#FB95D5", "#BDA29A", "#6E7074", "#546570", "#C4CCD3"],
+	    ["#37A2DA", "#67E0E3", "#32C5E9", "#9FE6B8", "#FFDB5C", "#FF9F7F", "#FB7293", "#E062AE", "#E690D1", "#E7BCF3", "#9D96F5", "#8378EA", "#8378EA"],
+	    ["#DD6B66", "#759AA0", "#E69D87", "#8DC1A9", "#EA7E53", "#EEDD78", "#73A373", "#73B9BC", "#7289AB", "#91CA8C", "#F49F42"],
+	];
+	var colorIndex = 0;
+	var geoCoordMap = {
+		    '旌阳区': [104.40359,31.206079],
+		    '罗江区': [104.515986,31.329543],
+		    '中江县': [104.794533,30.935371],
+		    "广汉市": [104.288032,30.987891],
+		    '什邡市': [104.008049,31.228314],
+		    "绵竹市": [104.162126,31.478962]
+	};
+	
+var days = ['2019-11', '2019-12', '2020-01', '2020-02', '(预测高危用户)'];
+
+var province = ['旌阳区', '罗江区', '中江县', '广汉市', '什邡市', '绵竹市'];
+
+var data = [
+		[450, 114, 97, 193, 260, 151],
+		[1157, 239, 289, 550, 564, 458],
+		[1375, 382, 472, 894, 933, 750],
+		[582, 173, 263, 209, 379, 355],
+		[116, 28, 58, 59, 56, 60]
+];
+
+var data_xr = [
+       		[286, 114, 235, 195, 197, 120],
+    		[615, 207, 358, 372, 365, 347],
+    		[194, 139, 155, 235, 177, 141],
+    		[58, 27, 71, 46, 62, 39],
+    		[0, 0, 0, 0, 0, 0]
+               ];
+
+var sum = []
+var sum_xr = []
+for(var i=0;i<data.length;i++){
+        sum[i]=0;
+        sum_xr[i]=0;
+    for(var j=0;j<data[i].length;j++){
+        
+        sum[i]=sum[i]+data[i][j];
+        sum_xr[i]=sum_xr[i]+data_xr[i][j];
+    }
+    
+}
+
+var yqyData = [
+    days,
+    sum
+];
+var yqyData_xr = [
+               days,
+               sum_xr
+           ];
+
+option = {
+    baseOption: {
+        
+    	legend: {
+            top: '8%',
+            left:'8%',
+            textStyle: {
+                color: '#FFFFFF',
+            },
+            data: ['新增携出', '新增携入']
+        },
+        
+
+        timeline: {
+            axisType: 'category',
+            // realtime: false,
+            // loop: false,
+            autoPlay: true,
+            playInterval: 2000,
+            symbolSize: 12,
+            left: '5%',
+            right: '5%',
+            bottom: '0%',
+            width: '80%',
+            // controlStyle: {
+            //     position: 'left'
+            // },
+            data: days,
+            tooltip: {
+                formatter: days
+            },
+            label: {
+                normal: {
+                    textStyle: {
+                        color: '#ddd'
+                    }
+                },
+                emphasis: {
+                    textStyle: {
+                        color: '#fff'
+                    }
+                }
+            },
+            checkpointStyle:{
+            		    //symbol : 'auto',
+            		    //symbolSize : 'auto',
+            		    color : '#b250ff',
+            		    borderColor : '#b250ff',
+            		    borderWidth : 2
+            },
+        },
+
+        tooltip: {
+        	trigger:'item',
+            show: false,
+            formatter: function(params) {
+                return params.name + '：' + params.data['value']
+            },
+        },
+       /*  visualMap: {
+            show: true,
+            min: 0,
+            max: 200,
+            left: 'left',
+            top: 'bottom',
+            text: ['高', '低'], // 文本，默认为数值文本
+            calculable: true,
+            seriesIndex: [1],
+            inRange: {
+                // color: ['#3B5077', '#031525'] // 蓝黑
+                // color: ['#ffc0cb', '#800080'] // 红紫
+                // color: ['#3C3B3F', '#605C3C'] // 黑绿
+                // color: ['#0f0c29', '#302b63', '#24243e'] // 黑紫黑
+                // color: ['#23074d', '#cc5333'] // 紫红
+                //color: ['#00467F', '#A5CC82'] // 蓝绿
+                // color: ['#1488CC', '#2B32B2'] // 浅蓝
+                // color: ['#00467F', '#A5CC82'] // 蓝绿
+                // color: ['#00467F', '#A5CC82'] // 蓝绿
+                // color: ['#00467F', '#A5CC82'] // 蓝绿
+                // color: ['#00467F', '#A5CC82'] // 蓝绿
+                 color: ['#ACF1F0', '#01DFDB']
+                
+
+            }
+        } */
+        visualMap: {
+            type: 'piecewise',
+            pieces: [{
+                    min: 1001
+                },
+                {
+                    min: 501,
+                    max: 1000
+                },
+                {
+                    min: 251,
+                    max: 500
+                },
+                {
+                    min: 101,
+                    max: 250
+                },
+                {
+                    min: 11,
+                    max: 100
+                },
+                {
+                    min: 1,
+                    max: 10
+                },
+                {
+                    value: 0
+                }
+            ],
+            inRange: {
+                color: ['#edfbfb', '#b7d6f3', '#40a9ed', '#3598c1', '#215096', ]
+            },
+            orient: 'vertical',
+            itemWidth: 25,
+            itemHeight: 15,
+            showLabel: true,
+            seriesIndex: [0],
+
+            textStyle: {
+                color: '#FFFFFF'
+            },
+            bottom: '10%',
+            left: "5%",
+        },
+        grid:[ {
+            right: '5%',
+            top: '20%',
+            bottom: '10%',
+            width: '20%'
+        },
+        {
+            right: '54%',
+            top: '12%',
+            bottom: '75%',
+            width: '40%'
+        }
+        
+        ],
+        
+        xAxis:[ {
+            min: 0,
+            max: 4000,
+            show: false,
+            nameTextStyle: {
+                color: '#FFFFFF'
+            },
+            axisTick: {
+                show: true,
+            },
+            axisLabel: {
+                //rotate:45,
+                textStyle: {
+                    fontSize: 14,
+                    color: '#FFFFFF',
+                },
+                interval: 'auto'
+            },
+            axisLine: {
+                show: true,
+                lineStyle: {
+                    color: '#FFFFFF'
+                },
+            },
+            splitLine: {
+                show: false,
+                lineStyle: {
+                    color: '#FFFFFF'
+                }
+            }
+        
+            
+        },{
+            data: yqyData[0],
+            gridIndex: 1,
+            nameTextStyle: {
+                color: '#FFFFFF'
+            },
+            axisTick: {
+                show: true,
+            },
+            axisLabel: {
+                //rotate:45,
+                textStyle: {
+                    fontSize: 14,
+                    color: '#FFFFFF',
+                },
+                interval: 'auto'
+            },
+            axisLine: {
+                show: true,
+                lineStyle: {
+                    color: '#FFFFFF'
+                },
+            },
+            splitLine: {
+                show: false,
+                lineStyle: {
+                    color: '#FFFFFF'
+                }
+            }
+        }], //折线图x轴数据赋值，指定坐标信息,
+        yAxis: [{
+            inverse: true,
+            offset: '2',
+            'type': 'category',
+            data: '',
+            nameTextStyle: {
+                color: '#fff'
+            },
+            axisTick: {
+                show: false,
+            },
+            axisLabel: {
+                //rotate:45,
+                textStyle: {
+                    fontSize: 14,
+                    color: '#FFFFFF',
+                },
+                interval: 0,
+                rich: {
+                    a: {
+                        color: '#fff',
+                        backgroundColor: '#b250ff',
+                        width: 20,
+                        height: 20,
+                        align: 'center',
+                        borderRadius: 2
+                    },
+                    b: {
+                        color: '#fff',
+                        backgroundColor: "#00ca95",
+                        width: 20,
+                        height: 20,
+                        align: 'center',
+                        borderRadius: 2
+                    }
+                },
+                formatter: function(params) {
+                    if (parseInt(params.slice(0, 2)) < 3 || (parseInt(params.slice(0, 2)) > 5 && parseInt(params.slice(0, 2)) < 9)) {
+                        return [
+                            '{a|' + (parseInt(params.slice(0, 2)) + 1) + '}' + '  ' + params.slice(2)
+                        ].join('\n')
+                    } else {
+                        return [
+                            '{b|' + (parseInt(params.slice(0, 2)) + 1) + '}' + '  ' + params.slice(2)
+                        ].join('\n')
+                    }
+                }
+            },
+            axisLine: {
+                show: false,
+                lineStyle: {
+                    color: '#333'
+                },
+            },
+            splitLine: {
+                show: false,
+                lineStyle: {
+                    color: '#333'
+                }
+            },
+        },
+        
+
+        {
+            name: '人数',
+            
+            inverse: false,
+            offset: '2',
+            type: 'value',
+            nameTextStyle: {
+                color: '#FFFFFF'
+            },
+            axisTick: {
+                show: true,
+            },
+            axisLabel: {
+                //rotate:45,
+                textStyle: {
+                    fontSize: 14,
+                    color: '#FFFFFF',
+                },
+                interval: 'auto'
+            },
+            axisLine: {
+                show: true,
+                lineStyle: {
+                    color: '#FFFFFF'
+                },
+            },
+            splitLine: {
+                show: false,
+                lineStyle: {
+                    color: '#FFFFFF'
+                }
+            },
+            gridIndex: 1
+            
+        }
+        ]
+        
+        
+        ,
+        backgroundColor: '#0f2c70',
+        geo: {
+            map: 'deyang',
+            right: '55%',
+            left: '20%',
+            top: '30%',
+            bottom: '10%',
+            roam:false,
+            label: {
+                emphasis: {
+                    show: false,
+                }
+            },
+            itemStyle: {
+            	normal: {
+                    //areaColor: '#091632',
+                    borderColor: '#1773c3',
+                    borderWidth: 1,
+                    //shadowColor: '#1773c3',
+                    //shadowBlur: 20
+                }, 
+                emphasis: {
+                    areaColor: "#00ca95"
+                }
+            }
+        },
+        series: [
+            
+        
+            {
+                name: 'mapSer',
+                type: 'map',
+                map: 'deyang',
+                geoIndex: 0,
+                label: {
+                    show: false,
+                },
+            },
+            {
+                'name': '',
+                'type': 'bar',
+                zlevel: 2,
+                barWidth: '40%',
+                label: {
+                    normal: {
+                        show: true,
+                        fontSize: 14,
+                        position: 'right',
+                        formatter: '{c}',
+                        color: '#FFFFFF'
+                    }
+                },
+            },
+            
+            
+        ],
+
+    },
+    animationDurationUpdate: 3000,
+    animationEasingUpdate: 'quinticInOut',
+    options: []
+};
+for (var n = 0; n < days.length; n++) {
+
+    var res = [];
+    for (j = 0; j < data[n].length; j++) {
+        res.push({
+            name: province[j],
+            value: data[n][j]
+        });
+    }
+    res.sort(function(a, b) {
+        return b.value - a.value;
+    }).slice(0, 6);
+
+    res.sort(function(a, b) {
+        return a.value - b.value;
+    });
+    
+    var res_xr = [];
+    for (j = 0; j < data_xr[n].length; j++) {
+        res_xr.push({
+            name: province[j] + "(携入)",
+            value: data_xr[n][j]
+        });
+    }
+    res_xr.sort(function(a, b) {
+        return b.value - a.value;
+    }).slice(0, 6);
+
+    res_xr.sort(function(a, b) {
+        return a.value - b.value;
+    });
+    
+    var res1 = [];
+    var res2 = [];
+    for (t = 0; t < 6; t++) {
+        res1[t] = res[res.length - 1 - t].name+"(携出)";
+        res2[t] = res[res.length - 1 - t].value;
+    };
+    for (t = 0; t < 6; t++) {
+        res1[t+6] = res_xr[res_xr.length - 1 - t].name;
+        res2[t+6] = res_xr[res_xr.length - 1 - t].value;
+    };
+    
+    var res3 = [];
+    for(var j =0;j<12;j++){
+        if(j<10){
+            res3[j] = '0'+j + res1[j];
+        }else{
+        	res3[j] = j + res1[j];
+        }
+    };
+    var convertData = function(data) {
+        var res = [];
+        for (var i = 0; i < data.length; i++) {
+            var geoCoord = geoCoordMap[data[i].name];
+            if (geoCoord) {
+                res.push({
+                    name: data[i].name,
+                    value: geoCoord.concat(data[i].value)
+                });
+            }
+        }
+        return res;
+    };
+    
+    console.log(res1);
+    console.log("----------------");
+    console.log(province);
+    option.options.push({
+        title: [{
+                text: days[n] + '德阳区县携出(入)人数'+sum[n]+'('+sum_xr[n]+')',
+                textStyle: {
+                    color: '#FFFFFF',
+                    fontSize: 28
+                },
+                left: 20,
+                top: 20,
+            },
+            {
+                show: true,
+                text: '区县变化情况',
+                textStyle: {
+                    color: '#FFFFFF',
+                    fontSize: 18
+                },
+                right: '25%',
+                top: '15%'
+            }
+        ],
+        yAxis: {
+            data: res3,
+            
+        },
+        series: [{
+            type: 'map',
+            data: res
+        }, {
+            type: 'bar',
+            data: res2,
+            itemStyle: {
+                normal: {
+                    color: function(params) {
+                        // build a color map as your need.
+                        var colorList = [{
+                                colorStops: [{
+                                    offset: 0,
+                                    color: 'rgba(11,42,84,.3)' // 0% 处的颜色
+                                }, {
+                                    offset: 1,
+                                    color: '#b250ff' // 100% 处的颜色
+                                }]
+                            },
+                            {
+                                colorStops: [{
+                                    offset: 0,
+                                    color: 'rgba(0,202,149,0.3)'
+                                },
+                                {
+                                    offset: 1,
+                                    color: "#00ca95"
+                                }
+                            ]
+                            }
+                        ];
+                        if (params.dataIndex < 3 || (params.dataIndex > 5 && params.dataIndex < 9)) {
+                            return colorList[0]
+                        } else {
+                            return colorList[1]
+                        }
+                    },
+                    barBorderRadius: [0,15,15,0]
+                }
+            },
+        },
+         /* {
+            name: '携出饼图',
+            type: 'pie',
+            radius: ['17%', '25%'],
+            center: ['55%', '50%'],
+            label: {
+                normal: {
+                    show: true
+                },
+                emphasis: {
+                    show: true
+                }
+            },
+            itemStyle: {
+            	normal: {
+                    color: '#215096',
+                    shadowBlur: 200,
+                    shadowColor: 'rgba(0, 0, 0, 0.5)'
+                },
+                emphasis: {
+                    color: "rgb(254,153,78)"
+                }
+            }, 
+            tooltip: {
+            	trigger:'item',
+                show: true,
+                formatter: function(params) {
+                    return params.name + '：' + params.data['value']
+                },
+            },
+            data: res
+        }
+        , */
+        {
+            name:'新增携出',
+            type: 'line',
+            xAxisIndex: 1, //指定折线图数据显示到：grid坐标系：0
+            yAxisIndex: 1,
+            data: yqyData[1], //折线图y轴数据赋值
+            symbol: 'circle',     //折点设定为实心点
+            symbolSize: 10,   //设定实心点的大小
+            areaStyle: {
+                normal: {
+                    color: new echarts.graphic.LinearGradient(0, 0, 0, 1, [{
+                            offset: 0,
+                            color: 'rgba(108,80,243,0.3)'
+                        },
+                        {
+                            offset: 1,
+                            color: 'rgba(108,80,243,0)'
+                        }
+                    ], false),
+                    shadowColor: 'rgba(108,80,243, 0.9)',
+                    shadowBlur: 20
+                }
+            },
+            label : 
+    		{show: true,
+            position: 'top',
+            color: '#6c50f3',
+            textStyle:{
+       		    fontSize: '16',		//字体大小
+		    	fontWeight: 'bolder'		//字体加粗
+					}
+    			},
+   			itemStyle: {
+                   color: "#6c50f3",
+                   borderColor: "#fff",
+                   borderWidth: 3,
+                   shadowColor: 'rgba(0, 0, 0, .3)',
+                   shadowBlur: 0,
+                   shadowOffsetY: 2,
+                   shadowOffsetX: 2,
+               },
+            lineStyle: {
+                normal: {
+                    color: "#6c50f3",
+                    shadowColor: 'rgba(0, 0, 0, .3)',
+                    shadowBlur: 0,
+                    shadowOffsetY: 5,
+                    shadowOffsetX: 5,
+                },
+            }
+            
+        },
+
+            {
+                name:'新增携入',
+                type: 'line',
+                xAxisIndex: 1, //指定折线图数据显示到：grid坐标系：0
+                yAxisIndex: 1,
+                data: yqyData_xr[1], //折线图y轴数据赋值
+                symbol: 'circle',     //折点设定为实心点
+                symbolSize: 10,   //设定实心点的大小
+                lineStyle: {
+                    normal: {
+                        color: "#00ca95",
+                        shadowColor: 'rgba(0, 0, 0, .3)',
+                        shadowBlur: 0,
+                        shadowOffsetY: 5,
+                        shadowOffsetX: 5,
+                    },
+                },
+                areaStyle: {
+                    normal: {
+                        color: new echarts.graphic.LinearGradient(0, 0, 0, 1, [{
+                                offset: 0,
+                                color: 'rgba(0,202,149,0.3)'
+                            },
+                            {
+                                offset: 1,
+                                color: 'rgba(0,202,149,0)'
+                            }
+                        ], false),
+                        shadowColor: 'rgba(0,202,149, 0.9)',
+                        shadowBlur: 20
+                    }
+                },
+                label : 
+				{	show: true,
+            	position: 'right',
+            	color: '#00ca95',
+            	textStyle:{
+           		    fontSize: '16',		//字体大小
+    		    	fontWeight: 'bolder'		//字体加粗
+    					}
+    			},
+    			itemStyle: {
+                    color: "#00ca95",
+                    borderColor: "#fff",
+                    borderWidth: 3,
+                    shadowColor: 'rgba(0, 0, 0, .3)',
+                    shadowBlur: 0,
+                    shadowOffsetY: 2,
+                    shadowOffsetX: 2,
+                }
+            },
+           
+         {
+            //  name: 'Top 5',
+            type: 'effectScatter',
+            coordinateSystem: 'geo',
+            data: convertData(res),
+            symbolSize: function(val) {
+                return val[2] / 20;
+            },
+            showEffectOn: 'render',
+            rippleEffect: {
+                brushType: 'stroke'
+            },
+            hoverAnimation: true,
+            label: {
+                normal: {
+                    formatter: '{b}:{@2}',
+                    position: 'right',
+                    show: true,
+                    textStyle:{
+               		    fontSize: '16',		//字体大小
+        		    	fontWeight: 'bolder'		//字体加粗
+        					}
+                }
+            },
+            itemStyle: {
+                normal: {
+                    color: '#FFFFFF',
+                    shadowBlur: 10,
+                    shadowColor: '#FFFFFF'
+                }
+            }
+        } 
+        ]
+    });
+};
+
+    //初始化echarts实例
+    var myChart = echarts.init(document.getElementById('container'));
+    //使用制定的配置项和数据显示图表
+    myChart.setOption(option);
+	    window.onresize = function () {
+	    	myChart.resize({Height:$(window).height()});
+	    };
+
+});
+
+</script>
+
+<div style="text-align:center;clear:both;">
+</div>
+
+</body>
+</html>
