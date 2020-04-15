@@ -14,6 +14,7 @@
 <script src="js/luojiang.js" type="text/javascript" charset="utf-8"></script>
 <script src="js/shifang.js" type="text/javascript" charset="utf-8"></script>
 <script src="js/zhongjiang.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/deyang_grid.js" type="text/javascript" charset="utf-8"></script>
 <style type="text/css">
 	body{
 		padding: 0px;
@@ -123,7 +124,7 @@
 <script type="text/javascript">
 
 var click_function_deyang = function(){
-	optionMap.series[0].mapType='deyang';
+	optionMap.series[0].mapType='deyang_grid';
 	myChart.setOption(optionMap);
 	
 };
@@ -205,7 +206,7 @@ var optionMap = {
                 series: [{  
                     name: '数据',  
                     type: 'map',  
-                    mapType: 'deyang',   
+                    mapType: 'deyang_grid',   
                     roam: true,  
                     label: {  
                         normal: {  

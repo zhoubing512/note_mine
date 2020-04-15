@@ -4,9 +4,10 @@
 <head>
 <meta charset="utf-8">
 <title>基于Echarts德阳地图</title>
-<script src="../js/jquery-1.11.1.min.js" type="text/javascript" charset="utf-8"></script>
-<script src="../js/echarts.min.js" type="text/javascript" charset="utf-8"></script>
-<script src="../js/china.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/jquery-1.11.1.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/echarts.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/china.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/deyang.js" type="text/javascript" charset="utf-8"></script>
 </head>
 
 <body bgcolor="#0f2c70">
@@ -14,8 +15,6 @@
 <div id="container" style="height: 750%;widht:100%;margin:20px 0 0;"></div>
 
 <script type="text/javascript">
-$.get('../js/deyang.json',function(citymap){
-	echarts.registerMap('deyang', citymap);
 	var colors = [
 	    ["#1DE9B6", "#FFFFFF", "#04B9FF", "#5DBD32", "#FF0000", "#FB95D5", "#BDA29A", "#6E7074", "#546570", "#C4CCD3"],
 	    ["#37A2DA", "#67E0E3", "#32C5E9", "#9FE6B8", "#FFDB5C", "#FF9F7F", "#FB7293", "#E062AE", "#E690D1", "#E7BCF3", "#9D96F5", "#8378EA", "#8378EA"],
@@ -759,7 +758,7 @@ for (var n = 0; n < days.length; n++) {
 	    	myChart.resize({Height:$(window).height()});
 	    };
 
-});
+
 
 </script>
 
