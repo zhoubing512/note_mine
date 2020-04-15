@@ -1,7 +1,7 @@
 
 import json
 
-with open("E:/git_learning_file/grid_dy_conv_20200326_utf8.json",'r',encoding='UTF-8') as f:
+with open("E:/Desktop/grid_dy_conv_20200326_utf8.json",'r',encoding='UTF-8') as f:
     geojson_dy = json.load(f)
 
 
@@ -56,7 +56,7 @@ wangge_json = json.loads(wangge_json_str)
 
 for i in range(len(geojson_dy)):
     wangge_json = json.loads(wangge_json_str)
-    if geojson_dy[i]['name'][:2] == '广汉':
+    if geojson_dy[i]['name'][:2] == '绵竹':
         wangge_json['properties']['name'] = geojson_dy[i]['name']
         wangge_json['geometry']['coordinates'][0][0] = geojson_dy[i]['bd_path']
         guanghan_json['features'].append(wangge_json)
@@ -65,7 +65,7 @@ for i in range(len(geojson_dy)):
 #file = open('E:/Desktop/zb_work/notes/note_mine/guanghan_geojson.json','w')
 #json.dump(guanghan_json,file)
 
-file = open('E:/Desktop/zb_work/notes/note_mine/guanghan_geojson.json','w')
+file = open('E:/Desktop/zb_work/notes/note_mine/mianzhu_geojson.json','w')
 file.write(json.dumps(guanghan_json))
 file.close()
 
@@ -115,3 +115,5 @@ for i in range(len(geojson_dy)):
 file = open('E:/git_learning_file/js_wangge_json.json','w',encoding='utf-8')
 file.write(str(js_wangge_json_list))
 file.close()
+
+#德阳 各个区县geojson.json --利用geojson.json数据生成js文件
