@@ -6,13 +6,21 @@
     <title>Document</title>
 </head>
 <body>
-    <!--  -->
-    <h1>hello html </h1>
-    {{url_str}} <br>
-    {{my_list[1]}} <br>
-    
-    {{my_dict['name']}} <br>
+
+<hr>
+<form method="POST">
+    {{form.csrf_token()}}
+    {{form.username.label}}{{form.username}}<br>
+    {{form.password.label}}{{form.password}}<br>
+    {{form.password2.label}}{{form.password2}}<br>
+    {{form.submit}}<br>
 
     
+</form>
+{% for message in get_flashed_messages() %}
+        {{message}}
+    {% endfor %}
+
 </body>
+
 </html>
