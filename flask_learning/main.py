@@ -14,12 +14,32 @@ app.secret_key = 'zhoubing'
 
 
 #配置数据库地址
-app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql://127.0.0.1:3306/mytest'
-
+app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql://root:zhoubing@127.0.0.1:3306/flask_sql_demo'
+#跟踪数据库的修改
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
+app.config['SQLALCHEMY_ECHO'] = True
 db = SQLAlchemy(app)
+'''
+两张表
+角色（管理员、普通用户）
+用户（角色ID）
+'''
+#数据库的模型，需要继承db.Model
+class Role(db.Model):
+    #定义表名
+    __tablename__ = 'roles'
+    #定义字段
+    #db.Column 表示一个字段
+    id = db.Column(db.Integer,primary_key=True)
+    name = db.Column(db.String(16),unique=True)
 
+class Users(db.Model):
+    __tablename__ = 'users'
+    id = db.Column(db.Integer,primary_key=True)
+    name = db.Column(db.String(16),unique=True)
+    #db.ForeignKey('roles.id') 表示外键  表名.id
+    role_id = db.Column(db.Integer,db.ForeignKey('roles.id'))
 
 class LoginForm(FlaskForm):
     username = StringField('用户名：',validators=[DataRequired()])
@@ -60,5 +80,10 @@ def get_order_id(order_id):
 
 
 if __name__=='__main__':
+    
+    #删除表
+    db.drop_all()
+    #创建表
+    db.create_all()
     app.run()
 
