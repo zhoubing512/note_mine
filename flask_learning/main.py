@@ -34,12 +34,27 @@ class Role(db.Model):
     id = db.Column(db.Integer,primary_key=True)
     name = db.Column(db.String(16),unique=True)
 
+    #在一的一方，写关联; users = db.relationship('Users'): 表示和Users模型发生了关联，增加了一个users属性
+    #backref='role': 表示role是Users要用的属性
+    users = db.relationship('Users', backref='role')
+
+    # repr()方法显示一个可读的字符串
+    def __repr__(self):
+        return '<Role: %s %s>' % (self.name,self.id)
+
 class Users(db.Model):
     __tablename__ = 'users'
     id = db.Column(db.Integer,primary_key=True)
     name = db.Column(db.String(16),unique=True)
+    email = db.Column(db.String(32),unique=True)
+    password = db.Column(db.String(32))
     #db.ForeignKey('roles.id') 表示外键  表名.id
     role_id = db.Column(db.Integer,db.ForeignKey('roles.id'))
+
+    #Users 希望有一个role属性，但是这个属性的定义，需要在另一个模型中定义
+
+    def __repr__(self):
+        return '<User: %s %s %s %s>' % (self.name,self.id,self.email,self.password)
 
 class LoginForm(FlaskForm):
     username = StringField('用户名：',validators=[DataRequired()])
@@ -85,5 +100,28 @@ if __name__=='__main__':
     db.drop_all()
     #创建表
     db.create_all()
+
+    #插入角色数据
+    ro1 = Role(name='admin')
+    db.session.add(ro1)
+    db.session.commit()
+    #再插入一条数据
+    ro2 = Role(name='user')
+    db.session.add(ro2)
+    db.session.commit()
+
+    #插入用户数据
+    user1 = Users(name='wang',email='wang@163.com',password='123456',role_id=ro1.id)
+    user2 = Users(name='zhang',email='zhang@163.com',password='201512',role_id=ro2.id)
+    user3 = Users(name='chen',email='chen@163.com',password='987654',role_id=ro2.id)
+    user4 = Users(name='zhou',email='zhou@163.com',password='457896',role_id=ro1.id)
+    user5 = Users(name='tang',email='tang@163.com',password='156324',role_id=ro2.id)
+    user6 = Users(name='wu',email='wu@163.com',password='698543',role_id=ro2.id)
+    user7 = Users(name='qian',email='qian@163.com',password='123456',role_id=ro1.id)
+    user8 = Users(name='liu',email='liu@163.com',password='765432',role_id=ro1.id)
+    user9 = Users(name='li',email='li@163.com',password='239654',role_id=ro2.id)
+    user10 = Users(name='sun',email='sun@163.com',password='345863',role_id=ro2.id)
+    db.session.add_all([user1,user2,user3,user4,user5,user6,user7,user8,user9,user10])
+    db.session.commit()
     app.run()
 
