@@ -1,0 +1,1330 @@
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 796-696-321
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 14:12:48] "[35m[1mGET / HTTP/1.1[0m" 500 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 14:12:48] "[37mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 14:12:48] "[37mGET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 14:12:48] "[37mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 14:12:48] "[37mGET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 14:12:48] "[37mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 14:12:48] "[37mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO _internal.py:113  * Detected change in 'E:\\Desktop\\zb_work\\notes\\note_mine\\visualizition_system\\application\\settings\\__init__.py', reloading
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 796-696-321
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 14:13:41] "[35m[1mGET /index HTTP/1.1[0m" 500 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 14:13:41] "[37mGET /index?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 14:13:41] "[37mGET /index?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 14:13:41] "[37mGET /index?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 14:13:41] "[37mGET /index?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 14:13:41] "[37mGET /index?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 14:13:41] "[37mGET /index?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 14:13:44] "[35m[1mGET /index HTTP/1.1[0m" 500 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 14:13:44] "[37mGET /index?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 14:13:44] "[37mGET /index?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 14:13:44] "[37mGET /index?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 14:13:44] "[37mGET /index?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 14:13:44] "[37mGET /index?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 14:13:44] "[37mGET /index?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 14:13:45] "[35m[1mGET /index HTTP/1.1[0m" 500 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 14:13:45] "[37mGET /index?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 14:13:45] "[37mGET /index?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 14:13:45] "[37mGET /index?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 14:13:45] "[37mGET /index?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 14:13:45] "[37mGET /index?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 14:13:45] "[37mGET /index?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 14:13:47] "[35m[1mGET /index HTTP/1.1[0m" 500 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 14:13:47] "[37mGET /index?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 14:13:47] "[37mGET /index?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 14:13:47] "[37mGET /index?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 14:13:47] "[37mGET /index?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 14:13:47] "[37mGET /index?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 14:13:47] "[37mGET /index?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO _internal.py:113  * Detected change in 'E:\\Desktop\\zb_work\\notes\\note_mine\\visualizition_system\\application\\settings\\__init__.py', reloading
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 796-696-321
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 14:15:00] "[35m[1mGET /index HTTP/1.1[0m" 500 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 14:15:00] "[37mGET /index?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 14:15:00] "[37mGET /index?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 14:15:00] "[37mGET /index?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 14:15:00] "[37mGET /index?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 14:15:00] "[37mGET /index?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 14:15:00] "[37mGET /index?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO _internal.py:113  * Detected change in 'E:\\Desktop\\zb_work\\notes\\note_mine\\visualizition_system\\application\\settings\\__init__.py', reloading
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 796-696-321
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113  * Detected change in 'E:\\Desktop\\zb_work\\notes\\note_mine\\visualizition_system\\application\\apps\\index\\views.py', reloading
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 796-696-321
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113  * Detected change in 'E:\\Desktop\\zb_work\\notes\\note_mine\\visualizition_system\\application\\settings\\__init__.py', reloading
+INFO _internal.py:113  * Restarting with stat
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 796-696-321
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO log.py:110 SHOW VARIABLES LIKE 'sql_mode'
+INFO log.py:110 ()
+INFO log.py:110 SHOW VARIABLES LIKE 'lower_case_table_names'
+INFO log.py:110 ()
+INFO log.py:110 SELECT DATABASE()
+INFO log.py:110 ()
+INFO log.py:110 show collation where `Charset` = 'utf8mb4' and `Collation` = 'utf8mb4_bin'
+INFO log.py:110 ()
+INFO log.py:110 SELECT CAST('test plain returns' AS CHAR(60)) AS anon_1
+INFO log.py:110 ()
+INFO log.py:110 SELECT CAST('test unicode returns' AS CHAR(60)) AS anon_1
+INFO log.py:110 ()
+INFO log.py:110 SELECT CAST('test collated returns' AS CHAR CHARACTER SET utf8mb4) COLLATE utf8mb4_bin AS anon_1
+INFO log.py:110 ()
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT sessions.id AS sessions_id, sessions.session_id AS sessions_session_id, sessions.data AS sessions_data, sessions.expiry AS sessions_expiry 
+FROM sessions 
+WHERE sessions.session_id = %s 
+ LIMIT %s
+INFO log.py:110 ('session:ce4f432d-b13e-4ee4-ba96-1e474e14e2c4', 1)
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:03:39] "[35m[1mGET /index HTTP/1.1[0m" 500 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:03:39] "[37mGET /index?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:03:39] "[37mGET /index?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:03:39] "[37mGET /index?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:03:39] "[37mGET /index?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:03:39] "[37mGET /index?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:03:39] "[37mGET /index?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO _internal.py:113  * Detected change in 'E:\\Desktop\\zb_work\\notes\\note_mine\\visualizition_system\\application\\__init__.py', reloading
+INFO _internal.py:113  * Restarting with stat
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 796-696-321
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO log.py:110 SHOW VARIABLES LIKE 'sql_mode'
+INFO log.py:110 ()
+INFO log.py:110 SHOW VARIABLES LIKE 'lower_case_table_names'
+INFO log.py:110 ()
+INFO log.py:110 SELECT DATABASE()
+INFO log.py:110 ()
+INFO log.py:110 show collation where `Charset` = 'utf8mb4' and `Collation` = 'utf8mb4_bin'
+INFO log.py:110 ()
+INFO log.py:110 SELECT CAST('test plain returns' AS CHAR(60)) AS anon_1
+INFO log.py:110 ()
+INFO log.py:110 SELECT CAST('test unicode returns' AS CHAR(60)) AS anon_1
+INFO log.py:110 ()
+INFO log.py:110 SELECT CAST('test collated returns' AS CHAR CHARACTER SET utf8mb4) COLLATE utf8mb4_bin AS anon_1
+INFO log.py:110 ()
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT sessions.id AS sessions_id, sessions.session_id AS sessions_session_id, sessions.data AS sessions_data, sessions.expiry AS sessions_expiry 
+FROM sessions 
+WHERE sessions.session_id = %s 
+ LIMIT %s
+INFO log.py:110 ('session:14f99406-70e0-436d-8b21-9077c8995603', 1)
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:08:27] "[35m[1mGET /index HTTP/1.1[0m" 500 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:08:27] "[37mGET /index?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:08:27] "[37mGET /index?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:08:27] "[37mGET /index?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:08:27] "[37mGET /index?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:08:27] "[37mGET /index?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:08:27] "[37mGET /index?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO log.py:110 ROLLBACK
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT sessions.id AS sessions_id, sessions.session_id AS sessions_session_id, sessions.data AS sessions_data, sessions.expiry AS sessions_expiry 
+FROM sessions 
+WHERE sessions.session_id = %s 
+ LIMIT %s
+INFO log.py:110 ('session:82ce3b02-920c-470d-8e07-3b6bf44b9cb4', 1)
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:08:28] "[35m[1mGET /index HTTP/1.1[0m" 500 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:08:29] "[37mGET /index?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:08:29] "[37mGET /index?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:08:29] "[37mGET /index?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:08:29] "[37mGET /index?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:08:29] "[37mGET /index?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:08:29] "[37mGET /index?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO log.py:110 ROLLBACK
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT sessions.id AS sessions_id, sessions.session_id AS sessions_session_id, sessions.data AS sessions_data, sessions.expiry AS sessions_expiry 
+FROM sessions 
+WHERE sessions.session_id = %s 
+ LIMIT %s
+INFO log.py:110 ('session:933d97ee-101a-4a59-b217-a50385590662', 1)
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:08:30] "[35m[1mGET /index HTTP/1.1[0m" 500 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:08:30] "[37mGET /index?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:08:30] "[37mGET /index?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:08:30] "[37mGET /index?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:08:30] "[37mGET /index?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:08:30] "[37mGET /index?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:08:30] "[37mGET /index?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO _internal.py:113  * Detected change in 'E:\\Desktop\\zb_work\\notes\\note_mine\\visualizition_system\\application\\settings\\__init__.py', reloading
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 796-696-321
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO log.py:110 SHOW VARIABLES LIKE 'sql_mode'
+INFO log.py:110 ()
+INFO log.py:110 SHOW VARIABLES LIKE 'lower_case_table_names'
+INFO log.py:110 ()
+INFO log.py:110 SELECT DATABASE()
+INFO log.py:110 ()
+INFO log.py:110 show collation where `Charset` = 'utf8mb4' and `Collation` = 'utf8mb4_bin'
+INFO log.py:110 ()
+INFO log.py:110 SELECT CAST('test plain returns' AS CHAR(60)) AS anon_1
+INFO log.py:110 ()
+INFO log.py:110 SELECT CAST('test unicode returns' AS CHAR(60)) AS anon_1
+INFO log.py:110 ()
+INFO log.py:110 SELECT CAST('test collated returns' AS CHAR CHARACTER SET utf8mb4) COLLATE utf8mb4_bin AS anon_1
+INFO log.py:110 ()
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT sessions.id AS sessions_id, sessions.session_id AS sessions_session_id, sessions.data AS sessions_data, sessions.expiry AS sessions_expiry 
+FROM sessions 
+WHERE sessions.session_id = %s 
+ LIMIT %s
+INFO log.py:110 ('session:b04b82ca-c4b9-4228-83ce-38698b582505', 1)
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:10:22] "[35m[1mGET /index HTTP/1.1[0m" 500 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:10:22] "[37mGET /index?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:10:22] "[37mGET /index?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:10:22] "[37mGET /index?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:10:22] "[37mGET /index?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:10:22] "[37mGET /index?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:10:22] "[37mGET /index?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO log.py:110 ROLLBACK
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT sessions.id AS sessions_id, sessions.session_id AS sessions_session_id, sessions.data AS sessions_data, sessions.expiry AS sessions_expiry 
+FROM sessions 
+WHERE sessions.session_id = %s 
+ LIMIT %s
+INFO log.py:110 ('session:832fda65-3e0b-4615-ab13-c02bb44039fd', 1)
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:10:24] "[35m[1mGET /index HTTP/1.1[0m" 500 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:10:24] "[37mGET /index?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:10:24] "[37mGET /index?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:10:24] "[37mGET /index?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:10:24] "[37mGET /index?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:10:24] "[37mGET /index?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:10:24] "[37mGET /index?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO log.py:110 ROLLBACK
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT sessions.id AS sessions_id, sessions.session_id AS sessions_session_id, sessions.data AS sessions_data, sessions.expiry AS sessions_expiry 
+FROM sessions 
+WHERE sessions.session_id = %s 
+ LIMIT %s
+INFO log.py:110 ('session:22fdfa42-ed4b-4a14-ab7b-130a95ce7229', 1)
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:10:25] "[35m[1mGET /index HTTP/1.1[0m" 500 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:10:25] "[37mGET /index?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:10:25] "[37mGET /index?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:10:25] "[37mGET /index?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:10:25] "[37mGET /index?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:10:25] "[37mGET /index?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO log.py:110 ROLLBACK
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT sessions.id AS sessions_id, sessions.session_id AS sessions_session_id, sessions.data AS sessions_data, sessions.expiry AS sessions_expiry 
+FROM sessions 
+WHERE sessions.session_id = %s 
+ LIMIT %s
+INFO log.py:110 ('session:1de52b4a-1707-4f5c-a1f4-c00807348ce5', 1)
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:10:25] "[35m[1mGET /index HTTP/1.1[0m" 500 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:10:25] "[37mGET /index?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:10:25] "[37mGET /index?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:10:25] "[37mGET /index?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:10:25] "[37mGET /index?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+INFO log.py:110 ROLLBACK
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT sessions.id AS sessions_id, sessions.session_id AS sessions_session_id, sessions.data AS sessions_data, sessions.expiry AS sessions_expiry 
+FROM sessions 
+WHERE sessions.session_id = %s 
+ LIMIT %s
+INFO log.py:110 ('session:bfdc4dd5-d14d-4c0c-966c-4c0ebd7a9041', 1)
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:10:25] "[35m[1mGET /index HTTP/1.1[0m" 500 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:10:25] "[37mGET /index?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO log.py:110 ROLLBACK
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT sessions.id AS sessions_id, sessions.session_id AS sessions_session_id, sessions.data AS sessions_data, sessions.expiry AS sessions_expiry 
+FROM sessions 
+WHERE sessions.session_id = %s 
+ LIMIT %s
+INFO log.py:110 ('session:86112efb-4acd-48d1-8fb3-90a664879c7b', 1)
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:10:26] "[35m[1mGET /index HTTP/1.1[0m" 500 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:10:26] "[37mGET /index?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:10:26] "[37mGET /index?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:10:26] "[37mGET /index?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:10:26] "[37mGET /index?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:10:26] "[37mGET /index?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO log.py:110 ROLLBACK
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT sessions.id AS sessions_id, sessions.session_id AS sessions_session_id, sessions.data AS sessions_data, sessions.expiry AS sessions_expiry 
+FROM sessions 
+WHERE sessions.session_id = %s 
+ LIMIT %s
+INFO log.py:110 ('session:03992520-74f6-4301-9eee-1e272c2b8a60', 1)
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:10:26] "[35m[1mGET /index HTTP/1.1[0m" 500 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:10:26] "[37mGET /index?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:10:26] "[37mGET /index?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:10:26] "[37mGET /index?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+INFO log.py:110 ROLLBACK
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT sessions.id AS sessions_id, sessions.session_id AS sessions_session_id, sessions.data AS sessions_data, sessions.expiry AS sessions_expiry 
+FROM sessions 
+WHERE sessions.session_id = %s 
+ LIMIT %s
+INFO log.py:110 ('session:9c344538-5a61-407e-81aa-922102b9c8e6', 1)
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:10:26] "[35m[1mGET /index HTTP/1.1[0m" 500 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:10:26] "[37mGET /index?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:10:26] "[37mGET /index?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:10:26] "[37mGET /index?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:10:26] "[37mGET /index?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:10:26] "[37mGET /index?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:10:26] "[37mGET /index?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO log.py:110 ROLLBACK
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT sessions.id AS sessions_id, sessions.session_id AS sessions_session_id, sessions.data AS sessions_data, sessions.expiry AS sessions_expiry 
+FROM sessions 
+WHERE sessions.session_id = %s 
+ LIMIT %s
+INFO log.py:110 ('session:6768b5e1-4731-458d-a057-a2451c95ab32', 1)
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:10:26] "[35m[1mGET /index HTTP/1.1[0m" 500 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:10:26] "[37mGET /index?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:10:26] "[37mGET /index?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:10:26] "[37mGET /index?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:10:26] "[37mGET /index?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:10:26] "[37mGET /index?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:10:26] "[37mGET /index?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO log.py:110 ROLLBACK
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT sessions.id AS sessions_id, sessions.session_id AS sessions_session_id, sessions.data AS sessions_data, sessions.expiry AS sessions_expiry 
+FROM sessions 
+WHERE sessions.session_id = %s 
+ LIMIT %s
+INFO log.py:110 ('session:f395dd12-9d2c-4569-bb14-cd24297b8b9d', 1)
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:10:27] "[35m[1mGET /index HTTP/1.1[0m" 500 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:10:27] "[37mGET /index?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:10:27] "[37mGET /index?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:10:27] "[37mGET /index?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:10:27] "[37mGET /index?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:10:27] "[37mGET /index?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:10:27] "[37mGET /index?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO log.py:110 ROLLBACK
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT sessions.id AS sessions_id, sessions.session_id AS sessions_session_id, sessions.data AS sessions_data, sessions.expiry AS sessions_expiry 
+FROM sessions 
+WHERE sessions.session_id = %s 
+ LIMIT %s
+INFO log.py:110 ('session:a31bcc13-5fd2-402a-96f8-f647f0d03ab7', 1)
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:10:27] "[35m[1mGET /index HTTP/1.1[0m" 500 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:10:27] "[37mGET /index?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:10:27] "[37mGET /index?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:10:27] "[37mGET /index?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:10:27] "[37mGET /index?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:10:27] "[37mGET /index?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:10:27] "[37mGET /index?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO log.py:110 ROLLBACK
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT sessions.id AS sessions_id, sessions.session_id AS sessions_session_id, sessions.data AS sessions_data, sessions.expiry AS sessions_expiry 
+FROM sessions 
+WHERE sessions.session_id = %s 
+ LIMIT %s
+INFO log.py:110 ('session:5a6fdf50-576b-4bd1-835c-8542db034af5', 1)
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:10:28] "[35m[1mGET /index HTTP/1.1[0m" 500 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:10:28] "[37mGET /index?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:10:28] "[37mGET /index?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:10:28] "[37mGET /index?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:10:28] "[37mGET /index?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:10:28] "[37mGET /index?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:10:28] "[37mGET /index?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO _internal.py:113  * Detected change in 'E:\\Desktop\\zb_work\\notes\\note_mine\\visualizition_system\\application\\settings\\__init__.py', reloading
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 796-696-321
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO log.py:110 SHOW VARIABLES LIKE 'sql_mode'
+INFO log.py:110 ()
+INFO log.py:110 SHOW VARIABLES LIKE 'lower_case_table_names'
+INFO log.py:110 ()
+INFO log.py:110 SELECT DATABASE()
+INFO log.py:110 ()
+INFO log.py:110 show collation where `Charset` = 'utf8mb4' and `Collation` = 'utf8mb4_bin'
+INFO log.py:110 ()
+INFO log.py:110 SELECT CAST('test plain returns' AS CHAR(60)) AS anon_1
+INFO log.py:110 ()
+INFO log.py:110 SELECT CAST('test unicode returns' AS CHAR(60)) AS anon_1
+INFO log.py:110 ()
+INFO log.py:110 SELECT CAST('test collated returns' AS CHAR CHARACTER SET utf8mb4) COLLATE utf8mb4_bin AS anon_1
+INFO log.py:110 ()
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT sessions.id AS sessions_id, sessions.session_id AS sessions_session_id, sessions.data AS sessions_data, sessions.expiry AS sessions_expiry 
+FROM sessions 
+WHERE sessions.session_id = %s 
+ LIMIT %s
+INFO log.py:110 ('session:b5639926-ee19-4819-a8c0-6f9c84b419b7', 1)
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:11:03] "[35m[1mGET /index HTTP/1.1[0m" 500 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:11:03] "[37mGET /index?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:11:03] "[37mGET /index?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:11:03] "[37mGET /index?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:11:03] "[37mGET /index?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:11:03] "[37mGET /index?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:11:03] "[37mGET /index?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:15:13] "[37mGET /index?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 796-696-321
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:28:40] "[33mGET /index HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:29:24] "[33mGET /index HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:29:27] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:29:30] "[33mGET /student HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:29:32] "[33mGET /student HTTP/1.1[0m" 404 -
+INFO _internal.py:113  * Detected change in 'E:\\Desktop\\zb_work\\notes\\note_mine\\visualizition_system\\application\\__init__.py', reloading
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 796-696-321
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:30:40] "[33mGET /student HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:30:41] "[33mGET /student HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:30:42] "[33mGET /student HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:30:47] "[37mGET / HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:30:55] "[33mGET /index HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:31:24] "[33mGET /404 HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:31:30] "[33mGET /student HTTP/1.1[0m" 404 -
+INFO _internal.py:113  * Detected change in 'E:\\Desktop\\zb_work\\notes\\note_mine\\visualizition_system\\application\\__init__.py', reloading
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 796-696-321
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:31:55] "[32mGET /student HTTP/1.1[0m" 308 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:31:55] "[37mGET /student/ HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:31:58] "[37mGET /student/ HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:31:59] "[37mGET /student/ HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:31:59] "[37mGET /student/ HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:31:59] "[37mGET /student/ HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:31:59] "[37mGET /student/ HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:32:00] "[37mGET /student/ HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:32:00] "[37mGET /student/ HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:32:00] "[37mGET /student/ HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:32:00] "[37mGET /student/ HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:32:01] "[37mGET /student/ HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:32:01] "[37mGET /student/ HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:32:01] "[37mGET /student/ HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:32:05] "[37mGET / HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:32:08] "[37mGET / HTTP/1.1[0m" 200 -
+INFO _internal.py:113  * Detected change in 'E:\\Desktop\\zb_work\\notes\\note_mine\\visualizition_system\\application\\__init__.py', reloading
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 796-696-321
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:33:28] "[37mGET / HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:33:29] "[37mGET / HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:33:29] "[37mGET / HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:33:29] "[37mGET / HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:33:29] "[37mGET / HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:33:29] "[37mGET / HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:33:30] "[37mGET / HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:33:34] "[33mGET /student/ HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:33:56] "[33mGET /students/ HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:34:07] "[35m[1mGET /students HTTP/1.1[0m" 500 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:34:07] "[37mGET /students?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:34:07] "[37mGET /students?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:34:07] "[37mGET /students?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:34:07] "[37mGET /students?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:34:08] "[37mGET /students?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:34:08] "[37mGET /students?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:34:18] "[35m[1mGET /students HTTP/1.1[0m" 500 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:34:19] "[37mGET /students?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:34:19] "[37mGET /students?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:34:19] "[37mGET /students?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:34:19] "[37mGET /students?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:34:19] "[37mGET /students?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:34:20] "[35m[1mGET /students HTTP/1.1[0m" 500 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:34:20] "[37mGET /students?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:34:20] "[37mGET /students?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:34:20] "[37mGET /students?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:34:20] "[37mGET /students?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:34:20] "[37mGET /students?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO _internal.py:113  * Detected change in 'E:\\Desktop\\zb_work\\notes\\note_mine\\visualizition_system\\application\\apps\\index\\views.py', reloading
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 796-696-321
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:35:47] "[35m[1mGET /students HTTP/1.1[0m" 500 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:35:47] "[37mGET /students?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:35:47] "[37mGET /students?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:35:47] "[37mGET /students?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:35:47] "[37mGET /students?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:35:47] "[37mGET /students?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:35:47] "[37mGET /students?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO _internal.py:113  * Detected change in 'E:\\Desktop\\zb_work\\notes\\note_mine\\visualizition_system\\application\\apps\\index\\views.py', reloading
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 796-696-321
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113  * Detected change in 'E:\\Desktop\\zb_work\\notes\\note_mine\\visualizition_system\\application\\apps\\index\\views.py', reloading
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 796-696-321
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113  * Detected change in 'E:\\Desktop\\zb_work\\notes\\note_mine\\visualizition_system\\application\\apps\\index\\views.py', reloading
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 796-696-321
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:37:02] "[35m[1mGET /students HTTP/1.1[0m" 500 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:37:02] "[37mGET /students?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:37:02] "[37mGET /students?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:37:02] "[37mGET /students?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:37:02] "[37mGET /students?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:37:02] "[37mGET /students?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:37:02] "[37mGET /students?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO _internal.py:113  * Detected change in 'E:\\Desktop\\zb_work\\notes\\note_mine\\visualizition_system\\application\\apps\\index\\views.py', reloading
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 796-696-321
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:41:44] "[35m[1mGET /students HTTP/1.1[0m" 500 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:41:44] "[37mGET /students?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:41:44] "[37mGET /students?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:41:44] "[37mGET /students?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:41:44] "[37mGET /students?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:41:44] "[37mGET /students?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:41:44] "[37mGET /students?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:41:45] "[35m[1mGET /students HTTP/1.1[0m" 500 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:41:45] "[37mGET /students?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:41:45] "[37mGET /students?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:41:45] "[37mGET /students?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:41:45] "[37mGET /students?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:41:46] "[37mGET /students?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:41:46] "[37mGET /students?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:41:51] "[37mGET /students?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+INFO _internal.py:113  * Detected change in 'E:\\Desktop\\zb_work\\notes\\note_mine\\visualizition_system\\application\\apps\\index\\views.py', reloading
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 796-696-321
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:43:36] "[35m[1mGET /students HTTP/1.1[0m" 500 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:47:21] "[35m[1mGET /students HTTP/1.1[0m" 500 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:47:21] "[37mGET /students?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:47:21] "[37mGET /students?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:47:21] "[37mGET /students?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:47:21] "[37mGET /students?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:47:21] "[37mGET /students?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 796-696-321
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:48:47] "[35m[1mGET /students HTTP/1.1[0m" 500 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:48:47] "[37mGET /students?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:48:47] "[37mGET /students?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:48:47] "[37mGET /students?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:48:47] "[37mGET /students?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:48:47] "[37mGET /students?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:48:52] "[35m[1mGET /students HTTP/1.1[0m" 500 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:48:52] "[37mGET /students?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:48:52] "[37mGET /students?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:48:52] "[37mGET /students?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:48:52] "[37mGET /students?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:48:52] "[37mGET /students?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:49:09] "[35m[1mGET /students HTTP/1.1[0m" 500 -
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 796-696-321
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:50:54] "[37mGET /students HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:50:58] "[37mGET /students HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:51:00] "[37mGET /students HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:51:00] "[37mGET /students HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:51:01] "[37mGET /students HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:51:01] "[37mGET /students HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:51:01] "[37mGET /students HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:51:02] "[37mGET /students HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:51:02] "[37mGET /students HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:51:02] "[37mGET /students HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:51:02] "[37mGET /students HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:51:03] "[37mGET /students HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:51:03] "[37mGET /students HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:51:03] "[37mGET /students HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:51:03] "[37mGET /students HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:51:49] "[37mGET /students HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:52:23] "[37mGET /students HTTP/1.1[0m" 200 -
+INFO _internal.py:113  * Detected change in 'E:\\Desktop\\zb_work\\notes\\note_mine\\visualizition_system\\application\\apps\\index\\views.py', reloading
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 796-696-321
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113  * Detected change in 'E:\\Desktop\\zb_work\\notes\\note_mine\\visualizition_system\\application\\apps\\index\\views.py', reloading
+INFO _internal.py:113  * Restarting with stat
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 796-696-321
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:58:10] "[37mGET /students HTTP/1.1[0m" 200 -
+INFO _internal.py:113  * Detected change in 'E:\\Desktop\\zb_work\\notes\\note_mine\\visualizition_system\\application\\apps\\index\\views.py', reloading
+INFO _internal.py:113  * Restarting with stat
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 796-696-321
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO log.py:110 SHOW VARIABLES LIKE 'sql_mode'
+INFO log.py:110 ()
+INFO log.py:110 SHOW VARIABLES LIKE 'lower_case_table_names'
+INFO log.py:110 ()
+INFO log.py:110 SELECT DATABASE()
+INFO log.py:110 ()
+INFO log.py:110 show collation where `Charset` = 'utf8mb4' and `Collation` = 'utf8mb4_bin'
+INFO log.py:110 ()
+INFO log.py:110 SELECT CAST('test plain returns' AS CHAR(60)) AS anon_1
+INFO log.py:110 ()
+INFO log.py:110 SELECT CAST('test unicode returns' AS CHAR(60)) AS anon_1
+INFO log.py:110 ()
+INFO log.py:110 SELECT CAST('test collated returns' AS CHAR CHARACTER SET utf8mb4) COLLATE utf8mb4_bin AS anon_1
+INFO log.py:110 ()
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT student.id AS student_id, student.name AS student_name, student.sex AS student_sex, student.class_number AS student_class_number, student.age AS student_age, student.description AS student_description 
+FROM student
+INFO log.py:110 ()
+INFO log.py:110 ROLLBACK
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:59:55] "[37mGET /students HTTP/1.1[0m" 200 -
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT student.id AS student_id, student.name AS student_name, student.sex AS student_sex, student.class_number AS student_class_number, student.age AS student_age, student.description AS student_description 
+FROM student
+INFO log.py:110 ()
+INFO log.py:110 ROLLBACK
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:59:56] "[37mGET /students HTTP/1.1[0m" 200 -
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT student.id AS student_id, student.name AS student_name, student.sex AS student_sex, student.class_number AS student_class_number, student.age AS student_age, student.description AS student_description 
+FROM student
+INFO log.py:110 ()
+INFO log.py:110 ROLLBACK
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:59:57] "[37mGET /students HTTP/1.1[0m" 200 -
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT student.id AS student_id, student.name AS student_name, student.sex AS student_sex, student.class_number AS student_class_number, student.age AS student_age, student.description AS student_description 
+FROM student
+INFO log.py:110 ()
+INFO log.py:110 ROLLBACK
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:59:58] "[37mGET /students HTTP/1.1[0m" 200 -
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT student.id AS student_id, student.name AS student_name, student.sex AS student_sex, student.class_number AS student_class_number, student.age AS student_age, student.description AS student_description 
+FROM student
+INFO log.py:110 ()
+INFO log.py:110 ROLLBACK
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:59:58] "[37mGET /students HTTP/1.1[0m" 200 -
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT student.id AS student_id, student.name AS student_name, student.sex AS student_sex, student.class_number AS student_class_number, student.age AS student_age, student.description AS student_description 
+FROM student
+INFO log.py:110 ()
+INFO log.py:110 ROLLBACK
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 15:59:59] "[37mGET /students HTTP/1.1[0m" 200 -
+INFO _internal.py:113  * Detected change in 'E:\\Desktop\\zb_work\\notes\\note_mine\\visualizition_system\\application\\apps\\index\\views.py', reloading
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 796-696-321
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO log.py:110 SHOW VARIABLES LIKE 'sql_mode'
+INFO log.py:110 ()
+INFO log.py:110 SHOW VARIABLES LIKE 'lower_case_table_names'
+INFO log.py:110 ()
+INFO log.py:110 SELECT DATABASE()
+INFO log.py:110 ()
+INFO log.py:110 show collation where `Charset` = 'utf8mb4' and `Collation` = 'utf8mb4_bin'
+INFO log.py:110 ()
+INFO log.py:110 SELECT CAST('test plain returns' AS CHAR(60)) AS anon_1
+INFO log.py:110 ()
+INFO log.py:110 SELECT CAST('test unicode returns' AS CHAR(60)) AS anon_1
+INFO log.py:110 ()
+INFO log.py:110 SELECT CAST('test collated returns' AS CHAR CHARACTER SET utf8mb4) COLLATE utf8mb4_bin AS anon_1
+INFO log.py:110 ()
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT student.id AS student_id, student.name AS student_name, student.sex AS student_sex, student.class_number AS student_class_number, student.age AS student_age, student.description AS student_description 
+FROM student
+INFO log.py:110 ()
+INFO log.py:110 ROLLBACK
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 16:00:40] "[37mGET /students HTTP/1.1[0m" 200 -
+INFO _internal.py:113  * Detected change in 'E:\\Desktop\\zb_work\\notes\\note_mine\\visualizition_system\\application\\apps\\index\\views.py', reloading
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 796-696-321
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO log.py:110 SHOW VARIABLES LIKE 'sql_mode'
+INFO log.py:110 ()
+INFO log.py:110 SHOW VARIABLES LIKE 'lower_case_table_names'
+INFO log.py:110 ()
+INFO log.py:110 SELECT DATABASE()
+INFO log.py:110 ()
+INFO log.py:110 show collation where `Charset` = 'utf8mb4' and `Collation` = 'utf8mb4_bin'
+INFO log.py:110 ()
+INFO log.py:110 SELECT CAST('test plain returns' AS CHAR(60)) AS anon_1
+INFO log.py:110 ()
+INFO log.py:110 SELECT CAST('test unicode returns' AS CHAR(60)) AS anon_1
+INFO log.py:110 ()
+INFO log.py:110 SELECT CAST('test collated returns' AS CHAR CHARACTER SET utf8mb4) COLLATE utf8mb4_bin AS anon_1
+INFO log.py:110 ()
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT student.id AS student_id, student.name AS student_name, student.sex AS student_sex, student.class_number AS student_class_number, student.age AS student_age, student.description AS student_description 
+FROM student
+INFO log.py:110 ()
+INFO log.py:110 ROLLBACK
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 16:01:57] "[37mGET /students HTTP/1.1[0m" 200 -
+INFO _internal.py:113  * Detected change in 'E:\\Desktop\\zb_work\\notes\\note_mine\\visualizition_system\\application\\apps\\index\\views.py', reloading
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 796-696-321
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO log.py:110 SHOW VARIABLES LIKE 'sql_mode'
+INFO log.py:110 ()
+INFO log.py:110 SHOW VARIABLES LIKE 'lower_case_table_names'
+INFO log.py:110 ()
+INFO log.py:110 SELECT DATABASE()
+INFO log.py:110 ()
+INFO log.py:110 show collation where `Charset` = 'utf8mb4' and `Collation` = 'utf8mb4_bin'
+INFO log.py:110 ()
+INFO log.py:110 SELECT CAST('test plain returns' AS CHAR(60)) AS anon_1
+INFO log.py:110 ()
+INFO log.py:110 SELECT CAST('test unicode returns' AS CHAR(60)) AS anon_1
+INFO log.py:110 ()
+INFO log.py:110 SELECT CAST('test collated returns' AS CHAR CHARACTER SET utf8mb4) COLLATE utf8mb4_bin AS anon_1
+INFO log.py:110 ()
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT student.id AS student_id, student.name AS student_name, student.sex AS student_sex, student.class_number AS student_class_number, student.age AS student_age, student.description AS student_description 
+FROM student
+INFO log.py:110 ()
+INFO log.py:110 ROLLBACK
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 16:02:45] "[37mGET /students HTTP/1.1[0m" 200 -
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT student.id AS student_id, student.name AS student_name, student.sex AS student_sex, student.class_number AS student_class_number, student.age AS student_age, student.description AS student_description 
+FROM student
+INFO log.py:110 ()
+INFO log.py:110 ROLLBACK
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 16:02:51] "[37mGET /students HTTP/1.1[0m" 200 -
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT student.id AS student_id, student.name AS student_name, student.sex AS student_sex, student.class_number AS student_class_number, student.age AS student_age, student.description AS student_description 
+FROM student
+INFO log.py:110 ()
+INFO log.py:110 ROLLBACK
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 16:02:53] "[37mGET /students HTTP/1.1[0m" 200 -
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT student.id AS student_id, student.name AS student_name, student.sex AS student_sex, student.class_number AS student_class_number, student.age AS student_age, student.description AS student_description 
+FROM student
+INFO log.py:110 ()
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 16:03:36] "[35m[1mGET /students HTTP/1.1[0m" 500 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 16:03:36] "[37mGET /students?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 16:03:36] "[37mGET /students?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 16:03:36] "[37mGET /students?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 16:03:36] "[37mGET /students?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 16:03:36] "[37mGET /students?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 16:03:36] "[37mGET /students?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO log.py:110 ROLLBACK
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT student.id AS student_id, student.name AS student_name, student.sex AS student_sex, student.class_number AS student_class_number, student.age AS student_age, student.description AS student_description 
+FROM student
+INFO log.py:110 ()
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 16:03:38] "[35m[1mGET /students HTTP/1.1[0m" 500 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 16:03:38] "[37mGET /students?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 16:03:38] "[37mGET /students?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 16:03:38] "[37mGET /students?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 16:03:38] "[37mGET /students?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 16:03:38] "[37mGET /students?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 16:03:38] "[37mGET /students?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO log.py:110 ROLLBACK
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT student.id AS student_id, student.name AS student_name, student.sex AS student_sex, student.class_number AS student_class_number, student.age AS student_age, student.description AS student_description 
+FROM student
+INFO log.py:110 ()
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 16:03:38] "[35m[1mGET /students HTTP/1.1[0m" 500 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 16:03:38] "[37mGET /students?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 16:03:38] "[37mGET /students?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 16:03:38] "[37mGET /students?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 16:03:38] "[37mGET /students?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 16:03:38] "[37mGET /students?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 16:03:38] "[37mGET /students?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO log.py:110 ROLLBACK
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT student.id AS student_id, student.name AS student_name, student.sex AS student_sex, student.class_number AS student_class_number, student.age AS student_age, student.description AS student_description 
+FROM student
+INFO log.py:110 ()
+INFO log.py:110 ROLLBACK
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 16:04:07] "[37mGET /students HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 16:04:16] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 16:04:16] "[37mGET /add HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 16:04:39] "[35m[1mPOST /add HTTP/1.1[0m" 500 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 16:04:39] "[37mGET /add?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 16:04:39] "[37mGET /add?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 16:04:39] "[37mGET /add?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 16:04:39] "[37mGET /add?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 16:04:39] "[37mGET /add?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 16:04:39] "[37mGET /add?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 16:08:51] "[35m[1mPOST /add HTTP/1.1[0m" 500 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 16:08:51] "[37mGET /add?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 16:08:51] "[37mGET /add?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 16:08:51] "[37mGET /add?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 16:08:51] "[37mGET /add?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 16:08:51] "[37mGET /add?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 16:08:51] "[37mGET /add?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 16:08:59] "[35m[1mPOST /add HTTP/1.1[0m" 500 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 16:08:59] "[37mGET /add?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 16:08:59] "[37mGET /add?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 16:08:59] "[37mGET /add?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 16:08:59] "[37mGET /add?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 16:08:59] "[37mGET /add?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 16:08:59] "[37mGET /add?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 16:09:14] "[35m[1mPOST /add HTTP/1.1[0m" 500 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 16:09:14] "[37mGET /add?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 16:09:14] "[37mGET /add?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 16:09:14] "[37mGET /add?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 16:09:14] "[37mGET /add?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 16:09:14] "[37mGET /add?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 16:09:14] "[37mGET /add?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 796-696-321
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 16:09:36] "[35m[1mPOST /add HTTP/1.1[0m" 500 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 16:09:36] "[37mGET /add?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 16:09:36] "[37mGET /add?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 16:09:36] "[37mGET /add?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 16:09:36] "[37mGET /add?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 16:09:36] "[37mGET /add?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 16:09:36] "[37mGET /add?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 16:09:48] "[33mGET /add_students HTTP/1.1[0m" 404 -
+INFO _internal.py:113  * Detected change in 'E:\\Desktop\\zb_work\\notes\\note_mine\\visualizition_system\\application\\apps\\index\\views.py', reloading
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 796-696-321
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 16:10:27] "[33mGET /add_students HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 16:10:29] "[33mGET /add_students HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 16:10:40] "[33mGET /add_students HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 16:10:45] "[37mGET /add HTTP/1.1[0m" 200 -
+INFO log.py:110 SHOW VARIABLES LIKE 'sql_mode'
+INFO log.py:110 ()
+INFO log.py:110 SHOW VARIABLES LIKE 'lower_case_table_names'
+INFO log.py:110 ()
+INFO log.py:110 SELECT DATABASE()
+INFO log.py:110 ()
+INFO log.py:110 show collation where `Charset` = 'utf8mb4' and `Collation` = 'utf8mb4_bin'
+INFO log.py:110 ()
+INFO log.py:110 SELECT CAST('test plain returns' AS CHAR(60)) AS anon_1
+INFO log.py:110 ()
+INFO log.py:110 SELECT CAST('test unicode returns' AS CHAR(60)) AS anon_1
+INFO log.py:110 ()
+INFO log.py:110 SELECT CAST('test collated returns' AS CHAR CHARACTER SET utf8mb4) COLLATE utf8mb4_bin AS anon_1
+INFO log.py:110 ()
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT student.id AS student_id, student.name AS student_name, student.sex AS student_sex, student.class_number AS student_class_number, student.age AS student_age, student.description AS student_description 
+FROM student
+INFO log.py:110 ()
+INFO log.py:110 ROLLBACK
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 16:10:56] "[37mGET /students HTTP/1.1[0m" 200 -
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT student.id AS student_id, student.name AS student_name, student.sex AS student_sex, student.class_number AS student_class_number, student.age AS student_age, student.description AS student_description 
+FROM student
+INFO log.py:110 ()
+INFO log.py:110 ROLLBACK
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 16:10:58] "[37mGET /students HTTP/1.1[0m" 200 -
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT student.id AS student_id, student.name AS student_name, student.sex AS student_sex, student.class_number AS student_class_number, student.age AS student_age, student.description AS student_description 
+FROM student
+INFO log.py:110 ()
+INFO log.py:110 ROLLBACK
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 16:10:59] "[37mGET /students HTTP/1.1[0m" 200 -
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT student.id AS student_id, student.name AS student_name, student.sex AS student_sex, student.class_number AS student_class_number, student.age AS student_age, student.description AS student_description 
+FROM student
+INFO log.py:110 ()
+INFO log.py:110 ROLLBACK
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 16:11:02] "[37mGET /students HTTP/1.1[0m" 200 -
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT student.id AS student_id, student.name AS student_name, student.sex AS student_sex, student.class_number AS student_class_number, student.age AS student_age, student.description AS student_description 
+FROM student
+INFO log.py:110 ()
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 16:11:13] "[35m[1mGET /students HTTP/1.1[0m" 500 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 16:11:13] "[37mGET /students?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 16:11:13] "[37mGET /students?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 16:11:13] "[37mGET /students?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 16:11:13] "[37mGET /students?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 16:11:14] "[37mGET /students?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 16:11:14] "[37mGET /students?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO log.py:110 ROLLBACK
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT student.id AS student_id, student.name AS student_name, student.sex AS student_sex, student.class_number AS student_class_number, student.age AS student_age, student.description AS student_description 
+FROM student
+INFO log.py:110 ()
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 16:11:14] "[35m[1mGET /students HTTP/1.1[0m" 500 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 16:11:14] "[37mGET /students?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 16:11:14] "[37mGET /students?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 16:11:14] "[37mGET /students?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 16:11:14] "[37mGET /students?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 16:11:14] "[37mGET /students?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 16:11:14] "[37mGET /students?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO log.py:110 ROLLBACK
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT student.id AS student_id, student.name AS student_name, student.sex AS student_sex, student.class_number AS student_class_number, student.age AS student_age, student.description AS student_description 
+FROM student
+INFO log.py:110 ()
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 16:11:16] "[35m[1mGET /students HTTP/1.1[0m" 500 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 16:11:16] "[37mGET /students?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 16:11:16] "[37mGET /students?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 16:11:16] "[37mGET /students?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 16:11:16] "[37mGET /students?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 16:11:16] "[37mGET /students?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 16:11:16] "[37mGET /students?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO log.py:110 ROLLBACK
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT student.id AS student_id, student.name AS student_name, student.sex AS student_sex, student.class_number AS student_class_number, student.age AS student_age, student.description AS student_description 
+FROM student
+INFO log.py:110 ()
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 16:11:16] "[35m[1mGET /students HTTP/1.1[0m" 500 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 16:11:16] "[37mGET /students?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 16:11:16] "[37mGET /students?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 16:11:16] "[37mGET /students?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 16:11:16] "[37mGET /students?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 16:11:17] "[37mGET /students?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 16:11:17] "[37mGET /students?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO log.py:110 ROLLBACK
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT student.id AS student_id, student.name AS student_name, student.sex AS student_sex, student.class_number AS student_class_number, student.age AS student_age, student.description AS student_description 
+FROM student
+INFO log.py:110 ()
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 16:11:17] "[35m[1mGET /students HTTP/1.1[0m" 500 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 16:11:17] "[37mGET /students?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 16:11:17] "[37mGET /students?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 16:11:17] "[37mGET /students?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 16:11:17] "[37mGET /students?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 16:11:17] "[37mGET /students?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 16:11:17] "[37mGET /students?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO log.py:110 ROLLBACK
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT student.id AS student_id, student.name AS student_name, student.sex AS student_sex, student.class_number AS student_class_number, student.age AS student_age, student.description AS student_description 
+FROM student
+INFO log.py:110 ()
+INFO log.py:110 ROLLBACK
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 16:12:18] "[37mGET /students HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 16:12:20] "[37mGET /add HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 16:12:22] "[37mGET /add HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 16:12:22] "[37mGET /add HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 16:12:22] "[37mGET /add HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 16:12:22] "[37mGET /add HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 16:12:23] "[37mGET /add HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 16:12:23] "[37mGET /add HTTP/1.1[0m" 200 -
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT student.id AS student_id, student.name AS student_name, student.sex AS student_sex, student.class_number AS student_class_number, student.age AS student_age, student.description AS student_description 
+FROM student
+INFO log.py:110 ()
+INFO log.py:110 ROLLBACK
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 16:12:24] "[37mGET /students HTTP/1.1[0m" 200 -
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT student.id AS student_id, student.name AS student_name, student.sex AS student_sex, student.class_number AS student_class_number, student.age AS student_age, student.description AS student_description 
+FROM student
+INFO log.py:110 ()
+INFO log.py:110 ROLLBACK
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 16:12:24] "[37mGET /students HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 16:12:26] "[37mGET /add HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 16:13:01] "[35m[1mPOST /add HTTP/1.1[0m" 500 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 16:13:01] "[37mGET /add?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 16:13:01] "[37mGET /add?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 16:13:01] "[37mGET /add?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 16:13:01] "[37mGET /add?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 16:13:01] "[37mGET /add?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 16:13:01] "[37mGET /add?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO _internal.py:113  * Detected change in 'E:\\Desktop\\zb_work\\notes\\note_mine\\visualizition_system\\application\\apps\\index\\views.py', reloading
+INFO _internal.py:113  * Restarting with stat
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 796-696-321
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO log.py:110 SHOW VARIABLES LIKE 'sql_mode'
+INFO log.py:110 ()
+INFO log.py:110 SHOW VARIABLES LIKE 'lower_case_table_names'
+INFO log.py:110 ()
+INFO log.py:110 SELECT DATABASE()
+INFO log.py:110 ()
+INFO log.py:110 show collation where `Charset` = 'utf8mb4' and `Collation` = 'utf8mb4_bin'
+INFO log.py:110 ()
+INFO log.py:110 SELECT CAST('test plain returns' AS CHAR(60)) AS anon_1
+INFO log.py:110 ()
+INFO log.py:110 SELECT CAST('test unicode returns' AS CHAR(60)) AS anon_1
+INFO log.py:110 ()
+INFO log.py:110 SELECT CAST('test collated returns' AS CHAR CHARACTER SET utf8mb4) COLLATE utf8mb4_bin AS anon_1
+INFO log.py:110 ()
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 INSERT INTO student (name, sex, class_number, age, description) VALUES (%s, %s, %s, %s, %s)
+INFO log.py:110 ('zhoubng', 1, '20', 5, '5G')
+INFO log.py:110 COMMIT
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 16:15:14] "[37mPOST /add HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 16:15:16] "[37mGET /add HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 16:15:19] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 16:15:21] "[33mGET /sutdents HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 16:15:24] "[33mGET /sutdent HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 16:15:36] "[33mGET /sutdent HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 16:15:38] "[33mGET /sutdent HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 16:15:38] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 16:15:39] "[33mGET /sutdent HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 16:15:39] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 16:15:41] "[33mGET /sutdent HTTP/1.1[0m" 404 -
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 796-696-321
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 16:16:04] "[33mGET /sutdent HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 16:16:14] "[33mGET /sutdents HTTP/1.1[0m" 404 -
+INFO log.py:110 SHOW VARIABLES LIKE 'sql_mode'
+INFO log.py:110 ()
+INFO log.py:110 SHOW VARIABLES LIKE 'lower_case_table_names'
+INFO log.py:110 ()
+INFO log.py:110 SELECT DATABASE()
+INFO log.py:110 ()
+INFO log.py:110 show collation where `Charset` = 'utf8mb4' and `Collation` = 'utf8mb4_bin'
+INFO log.py:110 ()
+INFO log.py:110 SELECT CAST('test plain returns' AS CHAR(60)) AS anon_1
+INFO log.py:110 ()
+INFO log.py:110 SELECT CAST('test unicode returns' AS CHAR(60)) AS anon_1
+INFO log.py:110 ()
+INFO log.py:110 SELECT CAST('test collated returns' AS CHAR CHARACTER SET utf8mb4) COLLATE utf8mb4_bin AS anon_1
+INFO log.py:110 ()
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT student.id AS student_id, student.name AS student_name, student.sex AS student_sex, student.class_number AS student_class_number, student.age AS student_age, student.description AS student_description 
+FROM student
+INFO log.py:110 ()
+INFO log.py:110 ROLLBACK
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 16:16:21] "[37mGET /students HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 16:16:23] "[37mGET /add HTTP/1.1[0m" 200 -
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 INSERT INTO student (name, sex, class_number, age, description) VALUES (%s, %s, %s, %s, %s)
+INFO log.py:110 ('zhoubing', 1, '40', 30, '5G')
+INFO log.py:110 COMMIT
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 16:16:36] "[37mPOST /add HTTP/1.1[0m" 200 -
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT student.id AS student_id, student.name AS student_name, student.sex AS student_sex, student.class_number AS student_class_number, student.age AS student_age, student.description AS student_description 
+FROM student
+INFO log.py:110 ()
+INFO log.py:110 ROLLBACK
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 16:17:15] "[37mGET /students HTTP/1.1[0m" 200 -
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT student.id AS student_id, student.name AS student_name, student.sex AS student_sex, student.class_number AS student_class_number, student.age AS student_age, student.description AS student_description 
+FROM student
+INFO log.py:110 ()
+INFO log.py:110 ROLLBACK
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 16:17:23] "[37mGET /students HTTP/1.1[0m" 200 -
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT student.id AS student_id, student.name AS student_name, student.sex AS student_sex, student.class_number AS student_class_number, student.age AS student_age, student.description AS student_description 
+FROM student
+INFO log.py:110 ()
+INFO log.py:110 ROLLBACK
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 16:17:29] "[37mGET /students HTTP/1.1[0m" 200 -
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 INSERT INTO student (name, sex, class_number, age, description) VALUES (%s, %s, %s, %s, %s)
+INFO log.py:110 ('zhoubing', 1, '40', 30, '5G')
+INFO log.py:110 COMMIT
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 16:27:31] "[37mPOST /add HTTP/1.1[0m" 200 -
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 INSERT INTO student (name, sex, class_number, age, description) VALUES (%s, %s, %s, %s, %s)
+INFO log.py:110 ('zhoubing', 1, '40', 30, '5G')
+INFO log.py:110 COMMIT
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 16:28:19] "[37mPOST /add HTTP/1.1[0m" 200 -
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 INSERT INTO student (name, sex, class_number, age, description) VALUES (%s, %s, %s, %s, %s)
+INFO log.py:110 ('', 1, '', 0, '')
+INFO log.py:110 COMMIT
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 16:29:33] "[37mPOST /add HTTP/1.1[0m" 200 -
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 INSERT INTO student (name, sex, class_number, age, description) VALUES (%s, %s, %s, %s, %s)
+INFO log.py:110 ('', 1, '', 0, '')
+INFO log.py:110 COMMIT
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 16:29:34] "[37mPOST /add HTTP/1.1[0m" 200 -
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 INSERT INTO student (name, sex, class_number, age, description) VALUES (%s, %s, %s, %s, %s)
+INFO log.py:110 ('', 1, '', 0, '')
+INFO log.py:110 COMMIT
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 16:29:35] "[37mPOST /add HTTP/1.1[0m" 200 -
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 INSERT INTO student (name, sex, class_number, age, description) VALUES (%s, %s, %s, %s, %s)
+INFO log.py:110 ('', 1, '', 0, '')
+INFO log.py:110 COMMIT
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 16:29:35] "[37mPOST /add HTTP/1.1[0m" 200 -
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 INSERT INTO student (name, sex, class_number, age, description) VALUES (%s, %s, %s, %s, %s)
+INFO log.py:110 ('', 1, '', 0, '')
+INFO log.py:110 COMMIT
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 16:29:36] "[37mPOST /add HTTP/1.1[0m" 200 -
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 INSERT INTO student (name, sex, class_number, age, description) VALUES (%s, %s, %s, %s, %s)
+INFO log.py:110 ('', 1, '', 0, '')
+INFO log.py:110 COMMIT
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 16:29:36] "[37mPOST /add HTTP/1.1[0m" 200 -
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 INSERT INTO student (name, sex, class_number, age, description) VALUES (%s, %s, %s, %s, %s)
+INFO log.py:110 ('', 1, '', 0, '')
+INFO log.py:110 COMMIT
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 16:29:37] "[37mPOST /add HTTP/1.1[0m" 200 -
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 INSERT INTO student (name, sex, class_number, age, description) VALUES (%s, %s, %s, %s, %s)
+INFO log.py:110 ('', 1, '', 0, '')
+INFO log.py:110 COMMIT
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 16:32:04] "[37mPOST /add HTTP/1.1[0m" 200 -
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 INSERT INTO student (name, sex, class_number, age, description) VALUES (%s, %s, %s, %s, %s)
+INFO log.py:110 ('', 1, '', 0, '')
+INFO log.py:110 COMMIT
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 16:32:19] "[37mPOST /add HTTP/1.1[0m" 200 -
+INFO _internal.py:113  * Detected change in 'E:\\Desktop\\zb_work\\notes\\note_mine\\visualizition_system\\application\\apps\\index\\__init__.py', reloading
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 796-696-321
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113  * Detected change in 'E:\\Desktop\\zb_work\\notes\\note_mine\\visualizition_system\\application\\__init__.py', reloading
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 796-696-321
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113  * Detected change in 'E:\\Desktop\\zb_work\\notes\\note_mine\\visualizition_system\\manage.py', reloading
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 796-696-321
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113  * Detected change in 'E:\\Desktop\\zb_work\\notes\\note_mine\\visualizition_system\\application\\apps\\index\\views.py', reloading
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 796-696-321
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO log.py:110 SHOW VARIABLES LIKE 'sql_mode'
+INFO log.py:110 ()
+INFO log.py:110 SHOW VARIABLES LIKE 'lower_case_table_names'
+INFO log.py:110 ()
+INFO log.py:110 SELECT DATABASE()
+INFO log.py:110 ()
+INFO log.py:110 show collation where `Charset` = 'utf8mb4' and `Collation` = 'utf8mb4_bin'
+INFO log.py:110 ()
+INFO log.py:110 SELECT CAST('test plain returns' AS CHAR(60)) AS anon_1
+INFO log.py:110 ()
+INFO log.py:110 SELECT CAST('test unicode returns' AS CHAR(60)) AS anon_1
+INFO log.py:110 ()
+INFO log.py:110 SELECT CAST('test collated returns' AS CHAR CHARACTER SET utf8mb4) COLLATE utf8mb4_bin AS anon_1
+INFO log.py:110 ()
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT student.id AS student_id, student.name AS student_name, student.sex AS student_sex, student.class_number AS student_class_number, student.age AS student_age, student.description AS student_description 
+FROM student 
+WHERE student.name = %s
+INFO log.py:110 ('zhoubing',)
+INFO log.py:110 ROLLBACK
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 18:09:50] "[37mGET /students HTTP/1.1[0m" 200 -
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT student.id AS student_id, student.name AS student_name, student.sex AS student_sex, student.class_number AS student_class_number, student.age AS student_age, student.description AS student_description 
+FROM student 
+WHERE student.name = %s
+INFO log.py:110 ('zhoubing',)
+INFO log.py:110 ROLLBACK
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 18:09:54] "[37mGET /students HTTP/1.1[0m" 200 -
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT student.id AS student_id, student.name AS student_name, student.sex AS student_sex, student.class_number AS student_class_number, student.age AS student_age, student.description AS student_description 
+FROM student 
+WHERE student.name = %s
+INFO log.py:110 ('zhoubing',)
+INFO log.py:110 ROLLBACK
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 18:09:55] "[37mGET /students HTTP/1.1[0m" 200 -
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT student.id AS student_id, student.name AS student_name, student.sex AS student_sex, student.class_number AS student_class_number, student.age AS student_age, student.description AS student_description 
+FROM student 
+WHERE student.name = %s
+INFO log.py:110 ('zhoubing',)
+INFO log.py:110 ROLLBACK
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 18:09:55] "[37mGET /students HTTP/1.1[0m" 200 -
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT student.id AS student_id, student.name AS student_name, student.sex AS student_sex, student.class_number AS student_class_number, student.age AS student_age, student.description AS student_description 
+FROM student 
+WHERE student.name = %s
+INFO log.py:110 ('zhoubing',)
+INFO log.py:110 ROLLBACK
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 18:09:55] "[37mGET /students HTTP/1.1[0m" 200 -
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT student.id AS student_id, student.name AS student_name, student.sex AS student_sex, student.class_number AS student_class_number, student.age AS student_age, student.description AS student_description 
+FROM student 
+WHERE student.name = %s
+INFO log.py:110 ('zhoubing',)
+INFO log.py:110 ROLLBACK
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 18:09:55] "[37mGET /students HTTP/1.1[0m" 200 -
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT student.id AS student_id, student.name AS student_name, student.sex AS student_sex, student.class_number AS student_class_number, student.age AS student_age, student.description AS student_description 
+FROM student 
+WHERE student.name = %s
+INFO log.py:110 ('zhoubing',)
+INFO log.py:110 ROLLBACK
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 18:09:56] "[37mGET /students HTTP/1.1[0m" 200 -
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT student.id AS student_id, student.name AS student_name, student.sex AS student_sex, student.class_number AS student_class_number, student.age AS student_age, student.description AS student_description 
+FROM student 
+WHERE student.name = %s
+INFO log.py:110 ('zhoubing',)
+INFO log.py:110 ROLLBACK
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 18:09:56] "[37mGET /students HTTP/1.1[0m" 200 -
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT student.id AS student_id, student.name AS student_name, student.sex AS student_sex, student.class_number AS student_class_number, student.age AS student_age, student.description AS student_description 
+FROM student 
+WHERE student.name = %s
+INFO log.py:110 ('zhoubing',)
+INFO log.py:110 ROLLBACK
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 18:09:56] "[37mGET /students HTTP/1.1[0m" 200 -
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT student.id AS student_id, student.name AS student_name, student.sex AS student_sex, student.class_number AS student_class_number, student.age AS student_age, student.description AS student_description 
+FROM student 
+WHERE student.name = %s
+INFO log.py:110 ('zhoubing',)
+INFO log.py:110 ROLLBACK
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 18:09:56] "[37mGET /students HTTP/1.1[0m" 200 -
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT student.id AS student_id, student.name AS student_name, student.sex AS student_sex, student.class_number AS student_class_number, student.age AS student_age, student.description AS student_description 
+FROM student 
+WHERE student.name = %s
+INFO log.py:110 ('zhoubing',)
+INFO log.py:110 ROLLBACK
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 18:09:56] "[37mGET /students HTTP/1.1[0m" 200 -
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT student.id AS student_id, student.name AS student_name, student.sex AS student_sex, student.class_number AS student_class_number, student.age AS student_age, student.description AS student_description 
+FROM student 
+WHERE student.name = %s
+INFO log.py:110 ('zhoubing',)
+INFO log.py:110 ROLLBACK
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 18:09:57] "[37mGET /students HTTP/1.1[0m" 200 -
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT student.id AS student_id, student.name AS student_name, student.sex AS student_sex, student.class_number AS student_class_number, student.age AS student_age, student.description AS student_description 
+FROM student 
+WHERE student.name = %s
+INFO log.py:110 ('zhoubing',)
+INFO log.py:110 ROLLBACK
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 18:09:57] "[37mGET /students HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 18:10:32] "[37mGET /add HTTP/1.1[0m" 200 -
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 INSERT INTO student (name, sex, class_number, age, description) VALUES (%s, %s, %s, %s, %s)
+INFO log.py:110 ('', 1, '', 0, '')
+INFO log.py:110 COMMIT
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 18:10:33] "[37mPOST /add HTTP/1.1[0m" 200 -
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT student.id AS student_id, student.name AS student_name, student.sex AS student_sex, student.class_number AS student_class_number, student.age AS student_age, student.description AS student_description 
+FROM student 
+WHERE student.name = %s
+INFO log.py:110 ('zhoubing',)
+INFO log.py:110 ROLLBACK
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 18:11:22] "[37mGET /students HTTP/1.1[0m" 200 -
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT student.id AS student_id, student.name AS student_name, student.sex AS student_sex, student.class_number AS student_class_number, student.age AS student_age, student.description AS student_description 
+FROM student 
+WHERE student.name = %s
+INFO log.py:110 ('zhoubing',)
+INFO log.py:110 ROLLBACK
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 18:11:25] "[37mGET /students HTTP/1.1[0m" 200 -
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT student.id AS student_id, student.name AS student_name, student.sex AS student_sex, student.class_number AS student_class_number, student.age AS student_age, student.description AS student_description 
+FROM student 
+WHERE student.name = %s
+INFO log.py:110 ('zhoubing',)
+INFO log.py:110 ROLLBACK
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 18:11:25] "[37mGET /students HTTP/1.1[0m" 200 -
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT student.id AS student_id, student.name AS student_name, student.sex AS student_sex, student.class_number AS student_class_number, student.age AS student_age, student.description AS student_description 
+FROM student 
+WHERE student.name = %s
+INFO log.py:110 ('zhoubing',)
+INFO log.py:110 ROLLBACK
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 18:11:25] "[37mGET /students HTTP/1.1[0m" 200 -
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT student.id AS student_id, student.name AS student_name, student.sex AS student_sex, student.class_number AS student_class_number, student.age AS student_age, student.description AS student_description 
+FROM student 
+WHERE student.name = %s
+INFO log.py:110 ('zhoubing',)
+INFO log.py:110 ROLLBACK
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 18:11:25] "[37mGET /students HTTP/1.1[0m" 200 -
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT student.id AS student_id, student.name AS student_name, student.sex AS student_sex, student.class_number AS student_class_number, student.age AS student_age, student.description AS student_description 
+FROM student 
+WHERE student.name = %s
+INFO log.py:110 ('zhoubing',)
+INFO log.py:110 ROLLBACK
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 18:11:25] "[37mGET /students HTTP/1.1[0m" 200 -
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT student.id AS student_id, student.name AS student_name, student.sex AS student_sex, student.class_number AS student_class_number, student.age AS student_age, student.description AS student_description 
+FROM student 
+WHERE student.name = %s
+INFO log.py:110 ('zhoubing',)
+INFO log.py:110 ROLLBACK
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 18:11:25] "[37mGET /students HTTP/1.1[0m" 200 -
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT student.id AS student_id, student.name AS student_name, student.sex AS student_sex, student.class_number AS student_class_number, student.age AS student_age, student.description AS student_description 
+FROM student 
+WHERE student.name = %s
+INFO log.py:110 ('zhoubing',)
+INFO log.py:110 ROLLBACK
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 18:11:25] "[37mGET /students HTTP/1.1[0m" 200 -
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT student.id AS student_id, student.name AS student_name, student.sex AS student_sex, student.class_number AS student_class_number, student.age AS student_age, student.description AS student_description 
+FROM student 
+WHERE student.name = %s
+INFO log.py:110 ('zhoubing',)
+INFO log.py:110 ROLLBACK
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 18:11:26] "[37mGET /students HTTP/1.1[0m" 200 -
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT student.id AS student_id, student.name AS student_name, student.sex AS student_sex, student.class_number AS student_class_number, student.age AS student_age, student.description AS student_description 
+FROM student 
+WHERE student.name = %s
+INFO log.py:110 ('zhoubing',)
+INFO log.py:110 ROLLBACK
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 18:11:26] "[37mGET /students HTTP/1.1[0m" 200 -
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT student.id AS student_id, student.name AS student_name, student.sex AS student_sex, student.class_number AS student_class_number, student.age AS student_age, student.description AS student_description 
+FROM student 
+WHERE student.name = %s
+INFO log.py:110 ('zhoubing',)
+INFO log.py:110 ROLLBACK
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 18:11:26] "[37mGET /students HTTP/1.1[0m" 200 -
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT student.id AS student_id, student.name AS student_name, student.sex AS student_sex, student.class_number AS student_class_number, student.age AS student_age, student.description AS student_description 
+FROM student 
+WHERE student.name = %s
+INFO log.py:110 ('zhoubing',)
+INFO log.py:110 ROLLBACK
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 18:11:26] "[37mGET /students HTTP/1.1[0m" 200 -
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT student.id AS student_id, student.name AS student_name, student.sex AS student_sex, student.class_number AS student_class_number, student.age AS student_age, student.description AS student_description 
+FROM student 
+WHERE student.name = %s
+INFO log.py:110 ('zhoubing',)
+INFO log.py:110 ROLLBACK
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 18:11:27] "[37mGET /students HTTP/1.1[0m" 200 -
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT student.id AS student_id, student.name AS student_name, student.sex AS student_sex, student.class_number AS student_class_number, student.age AS student_age, student.description AS student_description 
+FROM student 
+WHERE student.name = %s
+INFO log.py:110 ('zhoubing',)
+INFO log.py:110 ROLLBACK
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 18:11:27] "[37mGET /students HTTP/1.1[0m" 200 -
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT student.id AS student_id, student.name AS student_name, student.sex AS student_sex, student.class_number AS student_class_number, student.age AS student_age, student.description AS student_description 
+FROM student 
+WHERE student.name = %s
+INFO log.py:110 ('zhoubing',)
+INFO log.py:110 ROLLBACK
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 18:11:27] "[37mGET /students HTTP/1.1[0m" 200 -
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT student.id AS student_id, student.name AS student_name, student.sex AS student_sex, student.class_number AS student_class_number, student.age AS student_age, student.description AS student_description 
+FROM student 
+WHERE student.name = %s
+INFO log.py:110 ('zhoubing',)
+INFO log.py:110 ROLLBACK
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 18:11:27] "[37mGET /students HTTP/1.1[0m" 200 -
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT student.id AS student_id, student.name AS student_name, student.sex AS student_sex, student.class_number AS student_class_number, student.age AS student_age, student.description AS student_description 
+FROM student 
+WHERE student.name = %s
+INFO log.py:110 ('zhoubing',)
+INFO log.py:110 ROLLBACK
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 18:11:28] "[37mGET /students HTTP/1.1[0m" 200 -
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT student.id AS student_id, student.name AS student_name, student.sex AS student_sex, student.class_number AS student_class_number, student.age AS student_age, student.description AS student_description 
+FROM student 
+WHERE student.name = %s
+INFO log.py:110 ('zhoubing',)
+INFO log.py:110 ROLLBACK
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 18:11:28] "[37mGET /students HTTP/1.1[0m" 200 -
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT student.id AS student_id, student.name AS student_name, student.sex AS student_sex, student.class_number AS student_class_number, student.age AS student_age, student.description AS student_description 
+FROM student 
+WHERE student.name = %s
+INFO log.py:110 ('zhoubing',)
+INFO log.py:110 ROLLBACK
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 18:11:28] "[37mGET /students HTTP/1.1[0m" 200 -
+INFO _internal.py:113  * Detected change in 'E:\\Desktop\\zb_work\\notes\\note_mine\\visualizition_system\\application\\apps\\index\\views.py', reloading
