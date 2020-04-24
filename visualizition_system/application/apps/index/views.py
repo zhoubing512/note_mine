@@ -1,5 +1,5 @@
 from . import index_blu
-from flask import render_template,request,flash
+from flask import render_template,request,flash,jsonify
 
 
 @index_blu.route("/")
@@ -25,6 +25,25 @@ def students():
             'class_number':student.class_number,
         })
     return render_template('students.html',students=data)
+
+
+@index_blu.route('/student_list')
+def students_list():
+    from .models import Student
+    '''学生列表'''
+    student_list=Student.query.filter(Student.name=='zhoubing')
+    data=[]
+    print(student_list)
+    for student in student_list:
+        data.append({
+            'id': student.id,
+            'name':student.name,
+            'age':student.age,
+            'sex':'男' if student.sex else '女',
+            'description':student.description,
+            'class_number':student.class_number,
+        })
+    return jsonify(data)
 
 
 

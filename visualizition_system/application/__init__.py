@@ -5,7 +5,7 @@ from flask_session import Session
 from flask_sqlalchemy import SQLAlchemy
 import logging
 from logging.handlers import RotatingFileHandler
-
+from flask_cors import CORS
 from application.settings.dev import DevelopementConfig
 from application.settings.prop import ProductionConfig
 from .apps.index import index_blu
@@ -26,6 +26,8 @@ db = SQLAlchemy()
 def init_app(config_name):
     """项目的初始化函数"""
     app = Flask(__name__)
+    CORS(app, resources=r'/*')
+    app.config['JSON_AS_ASCII'] = False
 
     #设置配置类
     Config = config[config_name]

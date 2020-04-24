@@ -1328,3 +1328,511 @@ INFO log.py:110 ('zhoubing',)
 INFO log.py:110 ROLLBACK
 INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 18:11:28] "[37mGET /students HTTP/1.1[0m" 200 -
 INFO _internal.py:113  * Detected change in 'E:\\Desktop\\zb_work\\notes\\note_mine\\visualizition_system\\application\\apps\\index\\views.py', reloading
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 796-696-321
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO log.py:110 SHOW VARIABLES LIKE 'sql_mode'
+INFO log.py:110 ()
+INFO log.py:110 SHOW VARIABLES LIKE 'lower_case_table_names'
+INFO log.py:110 ()
+INFO log.py:110 SELECT DATABASE()
+INFO log.py:110 ()
+INFO log.py:110 show collation where `Charset` = 'utf8mb4' and `Collation` = 'utf8mb4_bin'
+INFO log.py:110 ()
+INFO log.py:110 SELECT CAST('test plain returns' AS CHAR(60)) AS anon_1
+INFO log.py:110 ()
+INFO log.py:110 SELECT CAST('test unicode returns' AS CHAR(60)) AS anon_1
+INFO log.py:110 ()
+INFO log.py:110 SELECT CAST('test collated returns' AS CHAR CHARACTER SET utf8mb4) COLLATE utf8mb4_bin AS anon_1
+INFO log.py:110 ()
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT student.id AS student_id, student.name AS student_name, student.sex AS student_sex, student.class_number AS student_class_number, student.age AS student_age, student.description AS student_description 
+FROM student 
+WHERE student.name = %s
+INFO log.py:110 ('zhoubing',)
+INFO log.py:110 ROLLBACK
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 18:13:48] "[37mGET /students HTTP/1.1[0m" 200 -
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT student.id AS student_id, student.name AS student_name, student.sex AS student_sex, student.class_number AS student_class_number, student.age AS student_age, student.description AS student_description 
+FROM student 
+WHERE student.name = %s
+INFO log.py:110 ('zhoubing',)
+INFO log.py:110 ROLLBACK
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 18:13:48] "[37mGET /students HTTP/1.1[0m" 200 -
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT student.id AS student_id, student.name AS student_name, student.sex AS student_sex, student.class_number AS student_class_number, student.age AS student_age, student.description AS student_description 
+FROM student 
+WHERE student.name = %s
+INFO log.py:110 ('zhoubing',)
+INFO log.py:110 ROLLBACK
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 18:13:48] "[37mGET /students HTTP/1.1[0m" 200 -
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT student.id AS student_id, student.name AS student_name, student.sex AS student_sex, student.class_number AS student_class_number, student.age AS student_age, student.description AS student_description 
+FROM student 
+WHERE student.name = %s
+INFO log.py:110 ('zhoubing',)
+INFO log.py:110 ROLLBACK
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 18:13:48] "[37mGET /students HTTP/1.1[0m" 200 -
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT student.id AS student_id, student.name AS student_name, student.sex AS student_sex, student.class_number AS student_class_number, student.age AS student_age, student.description AS student_description 
+FROM student 
+WHERE student.name = %s
+INFO log.py:110 ('zhoubing',)
+INFO log.py:110 ROLLBACK
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 18:13:49] "[37mGET /students HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 18:13:50] "[37mGET /add HTTP/1.1[0m" 200 -
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 INSERT INTO student (name, sex, class_number, age, description) VALUES (%s, %s, %s, %s, %s)
+INFO log.py:110 ('1111', 1, '', 222, '222')
+INFO log.py:110 COMMIT
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 18:13:59] "[37mPOST /add HTTP/1.1[0m" 200 -
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 INSERT INTO student (name, sex, class_number, age, description) VALUES (%s, %s, %s, %s, %s)
+INFO log.py:110 ('222', 1, '20', 2, '2222222222222')
+INFO log.py:110 COMMIT
+INFO _internal.py:113 127.0.0.1 - - [22/Apr/2020 18:14:09] "[37mPOST /add HTTP/1.1[0m" 200 -
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 796-696-321
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113 127.0.0.1 - - [24/Apr/2020 14:30:30] "[37mGET / HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Apr/2020 14:30:30] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO _internal.py:113  * Detected change in 'E:\\Desktop\\zb_work\\notes\\note_mine\\visualizition_system\\application\\apps\\index\\views.py', reloading
+INFO _internal.py:113  * Restarting with stat
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 796-696-321
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO log.py:110 SHOW VARIABLES LIKE 'sql_mode'
+INFO log.py:110 ()
+INFO log.py:110 SHOW VARIABLES LIKE 'lower_case_table_names'
+INFO log.py:110 ()
+INFO log.py:110 SELECT DATABASE()
+INFO log.py:110 ()
+INFO log.py:110 show collation where `Charset` = 'utf8mb4' and `Collation` = 'utf8mb4_bin'
+INFO log.py:110 ()
+INFO log.py:110 SELECT CAST('test plain returns' AS CHAR(60)) AS anon_1
+INFO log.py:110 ()
+INFO log.py:110 SELECT CAST('test unicode returns' AS CHAR(60)) AS anon_1
+INFO log.py:110 ()
+INFO log.py:110 SELECT CAST('test collated returns' AS CHAR CHARACTER SET utf8mb4) COLLATE utf8mb4_bin AS anon_1
+INFO log.py:110 ()
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT student.id AS student_id, student.name AS student_name, student.sex AS student_sex, student.class_number AS student_class_number, student.age AS student_age, student.description AS student_description 
+FROM student 
+WHERE student.name = %s
+INFO log.py:110 ('zhoubing',)
+INFO log.py:110 ROLLBACK
+INFO _internal.py:113 127.0.0.1 - - [24/Apr/2020 14:32:45] "[37mGET /students HTTP/1.1[0m" 200 -
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT student.id AS student_id, student.name AS student_name, student.sex AS student_sex, student.class_number AS student_class_number, student.age AS student_age, student.description AS student_description 
+FROM student 
+WHERE student.name = %s
+INFO log.py:110 ('zhoubing',)
+INFO _internal.py:113 127.0.0.1 - - [24/Apr/2020 14:33:05] "[35m[1mGET /student_list HTTP/1.1[0m" 500 -
+INFO _internal.py:113  * Detected change in 'E:\\Desktop\\zb_work\\notes\\note_mine\\visualizition_system\\application\\apps\\index\\views.py', reloading
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 796-696-321
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO log.py:110 SHOW VARIABLES LIKE 'sql_mode'
+INFO log.py:110 ()
+INFO log.py:110 SHOW VARIABLES LIKE 'lower_case_table_names'
+INFO log.py:110 ()
+INFO log.py:110 SELECT DATABASE()
+INFO log.py:110 ()
+INFO log.py:110 show collation where `Charset` = 'utf8mb4' and `Collation` = 'utf8mb4_bin'
+INFO log.py:110 ()
+INFO log.py:110 SELECT CAST('test plain returns' AS CHAR(60)) AS anon_1
+INFO log.py:110 ()
+INFO log.py:110 SELECT CAST('test unicode returns' AS CHAR(60)) AS anon_1
+INFO log.py:110 ()
+INFO log.py:110 SELECT CAST('test collated returns' AS CHAR CHARACTER SET utf8mb4) COLLATE utf8mb4_bin AS anon_1
+INFO log.py:110 ()
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT student.id AS student_id, student.name AS student_name, student.sex AS student_sex, student.class_number AS student_class_number, student.age AS student_age, student.description AS student_description 
+FROM student 
+WHERE student.name = %s
+INFO log.py:110 ('zhoubing',)
+INFO log.py:110 ROLLBACK
+INFO _internal.py:113 127.0.0.1 - - [24/Apr/2020 14:36:02] "[37mGET /student_list HTTP/1.1[0m" 200 -
+INFO _internal.py:113  * Detected change in 'E:\\Desktop\\zb_work\\notes\\note_mine\\visualizition_system\\application\\apps\\index\\views.py', reloading
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 796-696-321
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO log.py:110 SHOW VARIABLES LIKE 'sql_mode'
+INFO log.py:110 ()
+INFO log.py:110 SHOW VARIABLES LIKE 'lower_case_table_names'
+INFO log.py:110 ()
+INFO log.py:110 SELECT DATABASE()
+INFO log.py:110 ()
+INFO log.py:110 show collation where `Charset` = 'utf8mb4' and `Collation` = 'utf8mb4_bin'
+INFO log.py:110 ()
+INFO log.py:110 SELECT CAST('test plain returns' AS CHAR(60)) AS anon_1
+INFO log.py:110 ()
+INFO log.py:110 SELECT CAST('test unicode returns' AS CHAR(60)) AS anon_1
+INFO log.py:110 ()
+INFO log.py:110 SELECT CAST('test collated returns' AS CHAR CHARACTER SET utf8mb4) COLLATE utf8mb4_bin AS anon_1
+INFO log.py:110 ()
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT student.id AS student_id, student.name AS student_name, student.sex AS student_sex, student.class_number AS student_class_number, student.age AS student_age, student.description AS student_description 
+FROM student 
+WHERE student.name = %s
+INFO log.py:110 ('zhoubing',)
+INFO _internal.py:113 127.0.0.1 - - [24/Apr/2020 14:39:22] "[35m[1mGET /student_list HTTP/1.1[0m" 500 -
+INFO _internal.py:113  * Detected change in 'E:\\Desktop\\zb_work\\notes\\note_mine\\visualizition_system\\application\\apps\\index\\views.py', reloading
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 796-696-321
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113  * Detected change in 'E:\\Desktop\\zb_work\\notes\\note_mine\\visualizition_system\\application\\__init__.py', reloading
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 796-696-321
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO log.py:110 SHOW VARIABLES LIKE 'sql_mode'
+INFO log.py:110 ()
+INFO log.py:110 SHOW VARIABLES LIKE 'lower_case_table_names'
+INFO log.py:110 ()
+INFO log.py:110 SELECT DATABASE()
+INFO log.py:110 ()
+INFO log.py:110 show collation where `Charset` = 'utf8mb4' and `Collation` = 'utf8mb4_bin'
+INFO log.py:110 ()
+INFO log.py:110 SELECT CAST('test plain returns' AS CHAR(60)) AS anon_1
+INFO log.py:110 ()
+INFO log.py:110 SELECT CAST('test unicode returns' AS CHAR(60)) AS anon_1
+INFO log.py:110 ()
+INFO log.py:110 SELECT CAST('test collated returns' AS CHAR CHARACTER SET utf8mb4) COLLATE utf8mb4_bin AS anon_1
+INFO log.py:110 ()
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT student.id AS student_id, student.name AS student_name, student.sex AS student_sex, student.class_number AS student_class_number, student.age AS student_age, student.description AS student_description 
+FROM student 
+WHERE student.name = %s
+INFO log.py:110 ('zhoubing',)
+INFO log.py:110 ROLLBACK
+INFO _internal.py:113 127.0.0.1 - - [24/Apr/2020 14:40:48] "[37mGET /student_list HTTP/1.1[0m" 200 -
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT student.id AS student_id, student.name AS student_name, student.sex AS student_sex, student.class_number AS student_class_number, student.age AS student_age, student.description AS student_description 
+FROM student 
+WHERE student.name = %s
+INFO log.py:110 ('zhoubing',)
+INFO log.py:110 ROLLBACK
+INFO _internal.py:113 127.0.0.1 - - [24/Apr/2020 14:46:35] "[37mGET /student_list HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Apr/2020 14:56:40] "[37mOPTIONS /student_list HTTP/1.1[0m" 200 -
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT student.id AS student_id, student.name AS student_name, student.sex AS student_sex, student.class_number AS student_class_number, student.age AS student_age, student.description AS student_description 
+FROM student 
+WHERE student.name = %s
+INFO log.py:110 ('zhoubing',)
+INFO log.py:110 ROLLBACK
+INFO _internal.py:113 127.0.0.1 - - [24/Apr/2020 14:57:04] "[37mGET /student_list HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Apr/2020 14:59:14] "[37mOPTIONS /student_list HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Apr/2020 15:00:29] "[37mOPTIONS /student_list HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Apr/2020 15:00:50] "[37mOPTIONS /student_list HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Apr/2020 15:00:53] "[37mOPTIONS /student_list HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Apr/2020 15:01:14] "[37mOPTIONS /student_list HTTP/1.1[0m" 200 -
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT student.id AS student_id, student.name AS student_name, student.sex AS student_sex, student.class_number AS student_class_number, student.age AS student_age, student.description AS student_description 
+FROM student 
+WHERE student.name = %s
+INFO log.py:110 ('zhoubing',)
+INFO log.py:110 ROLLBACK
+INFO _internal.py:113 127.0.0.1 - - [24/Apr/2020 15:01:40] "[37mGET /student_list HTTP/1.1[0m" 200 -
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT student.id AS student_id, student.name AS student_name, student.sex AS student_sex, student.class_number AS student_class_number, student.age AS student_age, student.description AS student_description 
+FROM student 
+WHERE student.name = %s
+INFO log.py:110 ('zhoubing',)
+INFO log.py:110 ROLLBACK
+INFO _internal.py:113 127.0.0.1 - - [24/Apr/2020 15:07:20] "[37mGET /student_list HTTP/1.1[0m" 200 -
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT student.id AS student_id, student.name AS student_name, student.sex AS student_sex, student.class_number AS student_class_number, student.age AS student_age, student.description AS student_description 
+FROM student 
+WHERE student.name = %s
+INFO log.py:110 ('zhoubing',)
+INFO log.py:110 ROLLBACK
+INFO _internal.py:113 127.0.0.1 - - [24/Apr/2020 15:08:54] "[37mGET /student_list HTTP/1.1[0m" 200 -
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT student.id AS student_id, student.name AS student_name, student.sex AS student_sex, student.class_number AS student_class_number, student.age AS student_age, student.description AS student_description 
+FROM student 
+WHERE student.name = %s
+INFO log.py:110 ('zhoubing',)
+INFO log.py:110 ROLLBACK
+INFO _internal.py:113 127.0.0.1 - - [24/Apr/2020 15:13:30] "[37mGET /student_list HTTP/1.1[0m" 200 -
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT student.id AS student_id, student.name AS student_name, student.sex AS student_sex, student.class_number AS student_class_number, student.age AS student_age, student.description AS student_description 
+FROM student 
+WHERE student.name = %s
+INFO log.py:110 ('zhoubing',)
+INFO log.py:110 ROLLBACK
+INFO _internal.py:113 127.0.0.1 - - [24/Apr/2020 15:21:09] "[37mGET /student_list HTTP/1.1[0m" 200 -
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT student.id AS student_id, student.name AS student_name, student.sex AS student_sex, student.class_number AS student_class_number, student.age AS student_age, student.description AS student_description 
+FROM student 
+WHERE student.name = %s
+INFO log.py:110 ('zhoubing',)
+INFO log.py:110 ROLLBACK
+INFO _internal.py:113 127.0.0.1 - - [24/Apr/2020 15:26:24] "[37mGET /student_list HTTP/1.1[0m" 200 -
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT student.id AS student_id, student.name AS student_name, student.sex AS student_sex, student.class_number AS student_class_number, student.age AS student_age, student.description AS student_description 
+FROM student 
+WHERE student.name = %s
+INFO log.py:110 ('zhoubing',)
+INFO log.py:110 ROLLBACK
+INFO _internal.py:113 127.0.0.1 - - [24/Apr/2020 15:26:58] "[37mGET /student_list HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Apr/2020 15:42:06] "[33mGET /api/student_list HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [24/Apr/2020 15:42:30] "[33mGET /api/student_list HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [24/Apr/2020 15:43:36] "[33mGET /api/student_list HTTP/1.1[0m" 404 -
+INFO _internal.py:113  * Detected change in 'E:\\Desktop\\zb_work\\notes\\note_mine\\visualizition_system\\application\\__init__.py', reloading
+INFO _internal.py:113  * Restarting with stat
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 796-696-321
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO log.py:110 SHOW VARIABLES LIKE 'sql_mode'
+INFO log.py:110 ()
+INFO log.py:110 SHOW VARIABLES LIKE 'lower_case_table_names'
+INFO log.py:110 ()
+INFO log.py:110 SELECT DATABASE()
+INFO log.py:110 ()
+INFO log.py:110 show collation where `Charset` = 'utf8mb4' and `Collation` = 'utf8mb4_bin'
+INFO log.py:110 ()
+INFO log.py:110 SELECT CAST('test plain returns' AS CHAR(60)) AS anon_1
+INFO log.py:110 ()
+INFO log.py:110 SELECT CAST('test unicode returns' AS CHAR(60)) AS anon_1
+INFO log.py:110 ()
+INFO log.py:110 SELECT CAST('test collated returns' AS CHAR CHARACTER SET utf8mb4) COLLATE utf8mb4_bin AS anon_1
+INFO log.py:110 ()
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT student.id AS student_id, student.name AS student_name, student.sex AS student_sex, student.class_number AS student_class_number, student.age AS student_age, student.description AS student_description 
+FROM student 
+WHERE student.name = %s
+INFO log.py:110 ('zhoubing',)
+INFO log.py:110 ROLLBACK
+INFO _internal.py:113 127.0.0.1 - - [24/Apr/2020 15:51:31] "[37mGET /student_list HTTP/1.1[0m" 200 -
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT student.id AS student_id, student.name AS student_name, student.sex AS student_sex, student.class_number AS student_class_number, student.age AS student_age, student.description AS student_description 
+FROM student 
+WHERE student.name = %s
+INFO log.py:110 ('zhoubing',)
+INFO log.py:110 ROLLBACK
+INFO _internal.py:113 127.0.0.1 - - [24/Apr/2020 15:51:49] "[37mGET /student_list HTTP/1.1[0m" 200 -
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT student.id AS student_id, student.name AS student_name, student.sex AS student_sex, student.class_number AS student_class_number, student.age AS student_age, student.description AS student_description 
+FROM student 
+WHERE student.name = %s
+INFO log.py:110 ('zhoubing',)
+INFO log.py:110 ROLLBACK
+INFO _internal.py:113 127.0.0.1 - - [24/Apr/2020 15:51:57] "[37mGET /student_list HTTP/1.1[0m" 200 -
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT student.id AS student_id, student.name AS student_name, student.sex AS student_sex, student.class_number AS student_class_number, student.age AS student_age, student.description AS student_description 
+FROM student 
+WHERE student.name = %s
+INFO log.py:110 ('zhoubing',)
+INFO log.py:110 ROLLBACK
+INFO _internal.py:113 127.0.0.1 - - [24/Apr/2020 15:53:10] "[37mGET /student_list HTTP/1.1[0m" 200 -
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT student.id AS student_id, student.name AS student_name, student.sex AS student_sex, student.class_number AS student_class_number, student.age AS student_age, student.description AS student_description 
+FROM student 
+WHERE student.name = %s
+INFO log.py:110 ('zhoubing',)
+INFO log.py:110 ROLLBACK
+INFO _internal.py:113 127.0.0.1 - - [24/Apr/2020 15:53:25] "[37mGET /student_list HTTP/1.1[0m" 200 -
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT student.id AS student_id, student.name AS student_name, student.sex AS student_sex, student.class_number AS student_class_number, student.age AS student_age, student.description AS student_description 
+FROM student 
+WHERE student.name = %s
+INFO log.py:110 ('zhoubing',)
+INFO log.py:110 ROLLBACK
+INFO _internal.py:113 127.0.0.1 - - [24/Apr/2020 15:55:18] "[37mGET /student_list HTTP/1.1[0m" 200 -
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT student.id AS student_id, student.name AS student_name, student.sex AS student_sex, student.class_number AS student_class_number, student.age AS student_age, student.description AS student_description 
+FROM student 
+WHERE student.name = %s
+INFO log.py:110 ('zhoubing',)
+INFO log.py:110 ROLLBACK
+INFO _internal.py:113 127.0.0.1 - - [24/Apr/2020 15:55:45] "[37mGET /student_list HTTP/1.1[0m" 200 -
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT student.id AS student_id, student.name AS student_name, student.sex AS student_sex, student.class_number AS student_class_number, student.age AS student_age, student.description AS student_description 
+FROM student 
+WHERE student.name = %s
+INFO log.py:110 ('zhoubing',)
+INFO log.py:110 ROLLBACK
+INFO _internal.py:113 127.0.0.1 - - [24/Apr/2020 15:57:18] "[37mGET /student_list HTTP/1.1[0m" 200 -
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT student.id AS student_id, student.name AS student_name, student.sex AS student_sex, student.class_number AS student_class_number, student.age AS student_age, student.description AS student_description 
+FROM student 
+WHERE student.name = %s
+INFO log.py:110 ('zhoubing',)
+INFO log.py:110 ROLLBACK
+INFO _internal.py:113 127.0.0.1 - - [24/Apr/2020 15:57:34] "[37mGET /student_list HTTP/1.1[0m" 200 -
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT student.id AS student_id, student.name AS student_name, student.sex AS student_sex, student.class_number AS student_class_number, student.age AS student_age, student.description AS student_description 
+FROM student 
+WHERE student.name = %s
+INFO log.py:110 ('zhoubing',)
+INFO log.py:110 ROLLBACK
+INFO _internal.py:113 127.0.0.1 - - [24/Apr/2020 15:58:40] "[37mGET /student_list HTTP/1.1[0m" 200 -
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT student.id AS student_id, student.name AS student_name, student.sex AS student_sex, student.class_number AS student_class_number, student.age AS student_age, student.description AS student_description 
+FROM student 
+WHERE student.name = %s
+INFO log.py:110 ('zhoubing',)
+INFO log.py:110 ROLLBACK
+INFO _internal.py:113 127.0.0.1 - - [24/Apr/2020 15:59:18] "[37mGET /student_list HTTP/1.1[0m" 200 -
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT student.id AS student_id, student.name AS student_name, student.sex AS student_sex, student.class_number AS student_class_number, student.age AS student_age, student.description AS student_description 
+FROM student 
+WHERE student.name = %s
+INFO log.py:110 ('zhoubing',)
+INFO log.py:110 ROLLBACK
+INFO _internal.py:113 127.0.0.1 - - [24/Apr/2020 15:59:30] "[37mGET /student_list HTTP/1.1[0m" 200 -
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT student.id AS student_id, student.name AS student_name, student.sex AS student_sex, student.class_number AS student_class_number, student.age AS student_age, student.description AS student_description 
+FROM student 
+WHERE student.name = %s
+INFO log.py:110 ('zhoubing',)
+INFO log.py:110 ROLLBACK
+INFO _internal.py:113 127.0.0.1 - - [24/Apr/2020 16:00:24] "[37mGET /student_list HTTP/1.1[0m" 200 -
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT student.id AS student_id, student.name AS student_name, student.sex AS student_sex, student.class_number AS student_class_number, student.age AS student_age, student.description AS student_description 
+FROM student 
+WHERE student.name = %s
+INFO log.py:110 ('zhoubing',)
+INFO log.py:110 ROLLBACK
+INFO _internal.py:113 127.0.0.1 - - [24/Apr/2020 16:00:39] "[37mGET /student_list HTTP/1.1[0m" 200 -
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT student.id AS student_id, student.name AS student_name, student.sex AS student_sex, student.class_number AS student_class_number, student.age AS student_age, student.description AS student_description 
+FROM student 
+WHERE student.name = %s
+INFO log.py:110 ('zhoubing',)
+INFO log.py:110 ROLLBACK
+INFO _internal.py:113 127.0.0.1 - - [24/Apr/2020 16:00:43] "[37mGET /student_list HTTP/1.1[0m" 200 -
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT student.id AS student_id, student.name AS student_name, student.sex AS student_sex, student.class_number AS student_class_number, student.age AS student_age, student.description AS student_description 
+FROM student 
+WHERE student.name = %s
+INFO log.py:110 ('zhoubing',)
+INFO log.py:110 ROLLBACK
+INFO _internal.py:113 127.0.0.1 - - [24/Apr/2020 16:03:40] "[37mGET /student_list HTTP/1.1[0m" 200 -
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT student.id AS student_id, student.name AS student_name, student.sex AS student_sex, student.class_number AS student_class_number, student.age AS student_age, student.description AS student_description 
+FROM student 
+WHERE student.name = %s
+INFO log.py:110 ('zhoubing',)
+INFO log.py:110 ROLLBACK
+INFO _internal.py:113 127.0.0.1 - - [24/Apr/2020 16:08:11] "[37mGET /student_list HTTP/1.1[0m" 200 -
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT student.id AS student_id, student.name AS student_name, student.sex AS student_sex, student.class_number AS student_class_number, student.age AS student_age, student.description AS student_description 
+FROM student 
+WHERE student.name = %s
+INFO log.py:110 ('zhoubing',)
+INFO log.py:110 ROLLBACK
+INFO _internal.py:113 127.0.0.1 - - [24/Apr/2020 16:08:19] "[37mGET /student_list HTTP/1.1[0m" 200 -
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT student.id AS student_id, student.name AS student_name, student.sex AS student_sex, student.class_number AS student_class_number, student.age AS student_age, student.description AS student_description 
+FROM student 
+WHERE student.name = %s
+INFO log.py:110 ('zhoubing',)
+INFO log.py:110 ROLLBACK
+INFO _internal.py:113 127.0.0.1 - - [24/Apr/2020 16:09:05] "[37mGET /student_list HTTP/1.1[0m" 200 -
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT student.id AS student_id, student.name AS student_name, student.sex AS student_sex, student.class_number AS student_class_number, student.age AS student_age, student.description AS student_description 
+FROM student 
+WHERE student.name = %s
+INFO log.py:110 ('zhoubing',)
+INFO log.py:110 ROLLBACK
+INFO _internal.py:113 127.0.0.1 - - [24/Apr/2020 16:09:20] "[37mGET /student_list HTTP/1.1[0m" 200 -
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT student.id AS student_id, student.name AS student_name, student.sex AS student_sex, student.class_number AS student_class_number, student.age AS student_age, student.description AS student_description 
+FROM student 
+WHERE student.name = %s
+INFO log.py:110 ('zhoubing',)
+INFO log.py:110 ROLLBACK
+INFO _internal.py:113 127.0.0.1 - - [24/Apr/2020 16:43:29] "[37mGET /student_list HTTP/1.1[0m" 200 -
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT student.id AS student_id, student.name AS student_name, student.sex AS student_sex, student.class_number AS student_class_number, student.age AS student_age, student.description AS student_description 
+FROM student 
+WHERE student.name = %s
+INFO log.py:110 ('zhoubing',)
+INFO log.py:110 ROLLBACK
+INFO _internal.py:113 127.0.0.1 - - [24/Apr/2020 16:44:18] "[37mGET /student_list HTTP/1.1[0m" 200 -
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT student.id AS student_id, student.name AS student_name, student.sex AS student_sex, student.class_number AS student_class_number, student.age AS student_age, student.description AS student_description 
+FROM student 
+WHERE student.name = %s
+INFO log.py:110 ('zhoubing',)
+INFO log.py:110 ROLLBACK
+INFO _internal.py:113 127.0.0.1 - - [24/Apr/2020 16:51:49] "[37mGET /student_list HTTP/1.1[0m" 200 -
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT student.id AS student_id, student.name AS student_name, student.sex AS student_sex, student.class_number AS student_class_number, student.age AS student_age, student.description AS student_description 
+FROM student 
+WHERE student.name = %s
+INFO log.py:110 ('zhoubing',)
+INFO log.py:110 ROLLBACK
+INFO _internal.py:113 127.0.0.1 - - [24/Apr/2020 16:56:19] "[37mGET /student_list HTTP/1.1[0m" 200 -
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT student.id AS student_id, student.name AS student_name, student.sex AS student_sex, student.class_number AS student_class_number, student.age AS student_age, student.description AS student_description 
+FROM student 
+WHERE student.name = %s
+INFO log.py:110 ('zhoubing',)
+INFO log.py:110 ROLLBACK
+INFO _internal.py:113 127.0.0.1 - - [24/Apr/2020 16:56:27] "[37mGET /student_list HTTP/1.1[0m" 200 -
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT student.id AS student_id, student.name AS student_name, student.sex AS student_sex, student.class_number AS student_class_number, student.age AS student_age, student.description AS student_description 
+FROM student 
+WHERE student.name = %s
+INFO log.py:110 ('zhoubing',)
+INFO log.py:110 ROLLBACK
+INFO _internal.py:113 127.0.0.1 - - [24/Apr/2020 18:16:23] "[37mGET /student_list HTTP/1.1[0m" 200 -
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT student.id AS student_id, student.name AS student_name, student.sex AS student_sex, student.class_number AS student_class_number, student.age AS student_age, student.description AS student_description 
+FROM student 
+WHERE student.name = %s
+INFO log.py:110 ('zhoubing',)
+INFO log.py:110 ROLLBACK
+INFO _internal.py:113 127.0.0.1 - - [24/Apr/2020 18:16:23] "[37mGET /student_list HTTP/1.1[0m" 200 -
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT student.id AS student_id, student.name AS student_name, student.sex AS student_sex, student.class_number AS student_class_number, student.age AS student_age, student.description AS student_description 
+FROM student 
+WHERE student.name = %s
+INFO log.py:110 ('zhoubing',)
+INFO log.py:110 ROLLBACK
+INFO _internal.py:113 127.0.0.1 - - [24/Apr/2020 18:18:17] "[37mGET /student_list HTTP/1.1[0m" 200 -
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT student.id AS student_id, student.name AS student_name, student.sex AS student_sex, student.class_number AS student_class_number, student.age AS student_age, student.description AS student_description 
+FROM student 
+WHERE student.name = %s
+INFO log.py:110 ('zhoubing',)
+INFO log.py:110 ROLLBACK
+INFO _internal.py:113 127.0.0.1 - - [24/Apr/2020 18:19:20] "[37mGET /student_list HTTP/1.1[0m" 200 -
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT student.id AS student_id, student.name AS student_name, student.sex AS student_sex, student.class_number AS student_class_number, student.age AS student_age, student.description AS student_description 
+FROM student 
+WHERE student.name = %s
+INFO log.py:110 ('zhoubing',)
+INFO log.py:110 ROLLBACK
+INFO _internal.py:113 127.0.0.1 - - [24/Apr/2020 18:19:22] "[37mGET /student_list HTTP/1.1[0m" 200 -
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT student.id AS student_id, student.name AS student_name, student.sex AS student_sex, student.class_number AS student_class_number, student.age AS student_age, student.description AS student_description 
+FROM student 
+WHERE student.name = %s
+INFO log.py:110 ('zhoubing',)
+INFO log.py:110 ROLLBACK
+INFO _internal.py:113 127.0.0.1 - - [24/Apr/2020 18:19:24] "[37mGET /student_list HTTP/1.1[0m" 200 -
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT student.id AS student_id, student.name AS student_name, student.sex AS student_sex, student.class_number AS student_class_number, student.age AS student_age, student.description AS student_description 
+FROM student 
+WHERE student.name = %s
+INFO log.py:110 ('zhoubing',)
+INFO log.py:110 ROLLBACK
+INFO _internal.py:113 127.0.0.1 - - [24/Apr/2020 18:19:26] "[37mGET /student_list HTTP/1.1[0m" 200 -
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT student.id AS student_id, student.name AS student_name, student.sex AS student_sex, student.class_number AS student_class_number, student.age AS student_age, student.description AS student_description 
+FROM student 
+WHERE student.name = %s
+INFO log.py:110 ('zhoubing',)
+INFO log.py:110 ROLLBACK
+INFO _internal.py:113 127.0.0.1 - - [24/Apr/2020 18:24:44] "[37mGET /student_list HTTP/1.1[0m" 200 -
