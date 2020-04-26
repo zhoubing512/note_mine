@@ -6,7 +6,44 @@
             <el-breadcrumb-item>不满意客户</el-breadcrumb-item>
           </el-breadcrumb>
           <el-card>
-            <div id="main" style="width: 600px;height:400px;"></div>
+            <!-- <div id="main" style="width: 600px;height:400px;"></div> -->
+            <el-row :gutter="20">
+                <el-col :span="11">
+                    <div id="main" style="width: 600px;height:400px;"></div>
+                </el-col>
+                <el-col :span="11">
+                    <div id="main2" style="width: 600px;height:400px;"></div>
+                </el-col>
+              </el-row>
+              <el-row :gutter="20">
+                <el-col :span="11">
+                    <div id="main3" style="width: 600px;height:400px;"></div>
+                </el-col>
+                <el-col :span="11">
+                    <div id="main4" style="width: 600px;height:400px;"></div>
+                </el-col>
+              </el-row>
+              <el-row :gutter="20">
+                <el-col :span="6">
+                    <el-row>
+                        <div class="grid-content bg-purple"></div>
+                    </el-row>
+                    <el-row type="flex"  justify="center">
+                        <div class="grid-content bg-purple"></div>
+                    </el-row>
+                </el-col>
+                <el-col :span="6" :offset="6"><div class="grid-content bg-purple"></div></el-col>
+              </el-row>
+              <el-row :gutter="20" type="flex"  justify="center">
+                <el-col :span="12" :offset="6">
+                    <el-row>
+                    <div class="grid-content bg-purple"></div>
+                    </el-row>
+                    <el-row>
+                        <div class="grid-content bg-purple"></div>
+                        </el-row>
+                </el-col>
+              </el-row>
         </el-card>
     </div>
 
@@ -29,6 +66,11 @@
         //此时，页面上的元素，已经被渲染完毕了
         mounted(){
             var myChart = echarts.init(document.getElementById('main'));
+            var myChart2 = echarts.init(document.getElementById('main2'));
+            
+            var myChart3 = echarts.init(document.getElementById('main3'));
+            
+            var myChart4 = echarts.init(document.getElementById('main4'));
             //准备数据和配置项
             var option = {
                 title: {
@@ -49,6 +91,10 @@
                 }]
             };
             myChart.setOption(option);
+            
+            myChart2.setOption(option);
+            myChart3.setOption(option);
+            myChart4.setOption(option);
         },
         methods:{
             async getUserList(){
@@ -64,4 +110,31 @@
 
 <style lang="less" scoped>
 @import '../../assets/css/deyang_tvb.less';
+
+.el-row {
+    margin-bottom: 20px;
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+  .el-col {
+    border-radius: 4px;
+  }
+  .bg-purple-dark {
+    background: #99a9bf;
+  }
+  .bg-purple {
+    background: #d3dce6;
+  }
+  .bg-purple-light {
+    background: #e5e9f2;
+  }
+  .grid-content {
+    border-radius: 4px;
+    min-height: 36px;
+  }
+  .row-bg {
+    padding: 10px 0;
+    background-color: #f9fafc;
+  }
 </style>
