@@ -8,40 +8,30 @@
           <el-card>
             <!-- <div id="main" style="width: 600px;height:400px;"></div> -->
             <el-row :gutter="20">
-                <el-col :span="11">
-                    <div id="main" style="width: 600px;height:400px;"></div>
+                <el-col :span="12">
+                    <div id="main" ref="main" style="width: 100%;height:400px;"></div>
                 </el-col>
-                <el-col :span="11">
-                    <div id="main2" style="width: 600px;height:400px;"></div>
-                </el-col>
-              </el-row>
-              <el-row :gutter="20">
-                <el-col :span="11">
-                    <div id="main3" style="width: 600px;height:400px;"></div>
-                </el-col>
-                <el-col :span="11">
-                    <div id="main4" style="width: 600px;height:400px;"></div>
+                <el-col :span="12">
+                    <div id="main2" ref="main2" style="width: 100%;height:400px;"></div>
                 </el-col>
               </el-row>
               <el-row :gutter="20">
-                <el-col :span="6">
+                <el-col :span="12">
+                    <div id="main3" ref="main3" style="width: 100%;height:400px;"></div>
+                </el-col>
+                <el-col :span="12">
+                    <div id="main4" ref="main4" style="width: 100%;height:400px;"></div>
+                </el-col>
+              </el-row>
+              <el-row :gutter="20">
+                <el-col :span="12">
                     <el-row>
-                        <div id="id_test1" class="grid-content bg-purple"></div>
-                    </el-row>
-                    <el-row type="flex"  justify="center">
-                        <div class="grid-content bg-purple"></div>
+                        <div id="id_test1" ref="id_test1" class="grid-content bg-purple"  style="width: 100%;height:400px;"></div>
                     </el-row>
                 </el-col>
-                <el-col :span="6" :offset="6"><div class="grid-content bg-purple"></div></el-col>
-              </el-row>
-              <el-row :gutter="20" type="flex"  justify="center">
-                <el-col :span="12" :offset="6">
-                    <el-row>
-                    <div class="grid-content bg-purple"></div>
-                    </el-row>
-                    <el-row>
-                        <div class="grid-content bg-purple"></div>
-                        </el-row>
+                <el-col :span="12">
+                  <div id="id_test2" ref="id_test2" class="grid-content bg-purple" style="width: 100%;height:200px;"></div>
+                  <div id="id_test3" ref="id_test3" class="grid-content bg-purple" style="width: 100%;height:200px;"></div>
                 </el-col>
               </el-row>
               <el-row>
@@ -112,7 +102,9 @@
 
 
 <script>
-    import {optionTest,optionMap} from  '../../assets/js/deyang_tvb.js'
+    import {optionTest,optionMap,optionBar_newtv_user,option_bar_tv_user,
+      option_pie_watching_time,option_pie_family_num,option_pie_family_stb_num,option_bar_bottom_left,
+      option_bar_bottom_mid,option_bar_bottom_right} from  '../../assets/js/deyang_tvb.js'
     import '../../assets/js/deyang.js'
     let echarts = require('echarts/lib/echarts')
     export default {
@@ -135,7 +127,45 @@
             this.initChart("main4",optionTest)
             this.initChart("geo_deyang",optionMap)
             this.initChart("id_test1",optionTest)
-            
+            this.initChart("id_test2",optionTest)
+            this.initChart("id_test3",optionTest)
+            this.initChart("bar_tv_user_new",optionBar_newtv_user)
+            this.initChart("bar_tv_user",option_bar_tv_user)
+            this.initChart("pie_watching_time",option_pie_watching_time)
+            this.initChart("pie_family_num",option_pie_family_num)
+            this.initChart("pie_family_stb_num",option_pie_family_stb_num)
+
+            option_bar_bottom_left.series[0].itemStyle.normal.color=
+            new echarts.graphic.LinearGradient(0, 0, 1, 0, [{
+              offset: 0,
+              color: 'rgba(0,255,0)'
+          }, {
+              offset: 1,
+              color: 'rgb(215 ,255,0)'
+          }])
+          this.initChart("bar_bottom_left",option_bar_bottom_left)
+
+          option_bar_bottom_mid.series[0].itemStyle.normal.color=
+          new echarts.graphic.LinearGradient(0, 0, 1, 0, [{
+            offset: 0,
+            color: 'rgb(126, 177, 8)'
+        }, {
+            offset: 1,
+            color: 'rgb(8, 177, 45)'
+        }])
+        this.initChart("bar_bottom_mid",option_bar_bottom_mid)
+        
+        option_bar_bottom_right.series[0].itemStyle.normal.color=
+        new echarts.graphic.LinearGradient(0, 0, 1, 0, [{
+          offset: 0,
+          color: 'rgba(0,255,0)'
+      }, {
+          offset: 1,
+          color: 'rgb(215 ,255,0)'
+      }])
+      this.initChart("bar_bottom_right",option_bar_bottom_right)
+      this.init()
+
         },
         methods:{
             async getUserList(){
@@ -154,11 +184,32 @@
                 //     myChart.resize();
                 // })
                 //2.自适应方法2
-                setTimeout(function (){
-                    window.onresize = function () {
-                        myChart.resize();
-                    }
-                },200);
+                //setTimeout(function (){
+                 //   window.onresize = function () {
+                 //       myChart.resize();
+                 //   }
+                //},200);
+            },
+            init() {
+              const self = this;//因为箭头函数会改变this指向，指向windows。所以先把this保存
+              setTimeout(() => {
+                window.onresize = function() {
+                    self.main = echarts.init(self.$refs.main);
+                    self.main.resize();
+                    self.main2 = echarts.init(self.$refs.main2);
+                    self.main2.resize();
+                    self.main3 = echarts.init(self.$refs.main3);
+                    self.main3.resize();
+                    self.main4 = echarts.init(self.$refs.main4);
+                    self.main4.resize();
+                    self.id_test1 = echarts.init(self.$refs.id_test1);
+                    self.id_test1.resize();
+                    self.id_test2 = echarts.init(self.$refs.id_test2);
+                    self.id_test2.resize();
+                    self.id_test3 = echarts.init(self.$refs.id_test3);
+                    self.id_test3.resize();
+                }
+              },20)
             }
         }
     }
