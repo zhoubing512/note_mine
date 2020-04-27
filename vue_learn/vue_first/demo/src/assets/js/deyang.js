@@ -16,6 +16,9 @@
         }
     }
     if (!echarts) {
+        echarts = require('echarts/lib/echarts') // TODO 上述方法都无法引入echart，这里再导一遍
+      }
+    if (!echarts) {
         log('ECharts is not Loaded');
         return;
     }

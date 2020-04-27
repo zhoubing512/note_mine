@@ -8,9 +8,9 @@ import './assets/css/global.css'
 import 'element-ui/lib/theme-chalk/index.css'
 
 //引入echart
-// import echarts from 'echarts'
-// Vue.prototype.$echarts = echarts 
-window.echarts = require('echarts')
+import echarts from 'echarts'
+Vue.prototype.$echarts = echarts 
+// window.echarts = require('echarts')
 
 import axios from 'axios'
 Vue.config.productionTip = false
