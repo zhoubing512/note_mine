@@ -13,12 +13,14 @@ function getJSONFile(filepath){
 
 //返回一个函数
 module.exports = function(app){
-    //监听http请求
-    app.get('/user/userinfo',function(rep,res){
+    if(process.env.Mock == 'true'){
+        //监听http请求
+        app.get('/user/userinfo',function(rep,res){
         //每次响应请求时读取mock data的json文件
         //getJSONFile 方法定义了如何读取json文件并解析成数据对象
         var json = getJSONFile('./userinfo.json5');
         //将json传入Mock.mock方法中，生成的数据返回给浏览器
         res.json(Mock.mock(json));
     });
+    }
 }
