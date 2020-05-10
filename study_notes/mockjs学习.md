@@ -142,3 +142,15 @@ export default {
 }
 ```
 ###当后端开发好后如何移除mock
+
+通过环境变量，控制是否通过mock生成数据
+![移除mock](./images/mock移除控制.jpg)
+环境变量配置,在根目录生成文件 同时配置变量MOCK
+当MOCK为true时，通过mock模拟数据。
+生产环境时，设置为false，可通过开发的后台进行获取api数据
+![环境变量](./images/mock环境文件.jpg)
+
+####页面、mock、devserver原理逻辑
+![数据逻辑图](./images/mock-json5-devserver-axios职责.jpg)
+
+
