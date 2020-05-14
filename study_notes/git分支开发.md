@@ -1,27 +1,37 @@
-###1. 新建分支
+###git 分支开发
+
+* **新建分支**
 ```javascript
 git branch zbmenu
 ```
 
-###2. 切换到新建的分支
+* **切换到新建的分支**
 ```javascript
 git checkout zbmenu
 ```
-git如何新建分支
-1) 切换到基础分支，如主干
+git branch可以看到已经在zbmenu分支上
+
+* **更新分支代码并提交**
+```javascript
+git add *
+
+git commit -m "init zbmenu"
+
+git push --set-upstream origin zbmenu
+```
+* **合并分支代码**
+```javascript
+如：将zbmenu分支代码合并到master分支
+
+先切换到master分支
 
 git checkout master
 
-2）创建并切换到新分支
+merge代码，保证主分支代码最新
 
-git checkout -b panda
+git merge zbmenu
 
-git branch可以看到已经在panda分支上
+push到远端仓库
 
-3)更新分支代码并提交
-
-git add *
-
-git commit -m "init panda"
-
-git push origin panda
+git push
+```
