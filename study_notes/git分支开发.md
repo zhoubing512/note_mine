@@ -1,18 +1,18 @@
 ###git 分支开发
 
 * **新建分支**
-```javascript
+```bash
 git branch zbmenu
 ```
 
 * **切换到新建的分支**
-```javascript
+```bash
 git checkout zbmenu
 ```
 git branch可以看到已经在zbmenu分支上
 
 * **更新分支代码并提交**
-```javascript
+```bash
 git add *
 
 git commit -m "init zbmenu"
@@ -20,7 +20,7 @@ git commit -m "init zbmenu"
 git push --set-upstream origin zbmenu
 ```
 * **合并分支代码**
-```javascript
+```bash
 如：将zbmenu分支代码合并到master分支
 
 先切换到master分支
