@@ -46,3 +46,24 @@ Git 2.0版本之前，默认采用matching方法，现在改为默认采用simpl
 **解决：**
 1.按照提示在命令行中输入git push --set-upstream origin dev
 2.修改配置文件增加dev相关配置（复制红框2，修改master为dev）
+
+
+###问题3：git过滤不想提交的文件
+
+####1. 在工程根目录下新建 .gitignore文件
+
+&emsp;&emsp;提交代码，有时有编译时生成的修改项并不想提交，因为每次编译都会生成不一样的东西，我们可以进行过滤，步骤如下：
+```bash
+//linux环境下命令,windows下用文本编辑器也行，notepad++
+vim .gitignore
+```
+####2. 在生成的.gitignore文件中输入你不想上传的文件，例如下：
+```bash
+*.iml
+.gradle
+/local.properties
+/.idea/workspace.xml
+/build
+```
+设置完成之后，下次上传这些目录的修改就不在版本控制的范围之内了
+
