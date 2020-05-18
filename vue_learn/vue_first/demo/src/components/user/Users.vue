@@ -6,35 +6,7 @@
             <el-breadcrumb-item>不满意客户</el-breadcrumb-item>
           </el-breadcrumb>
           <el-card>
-            <!-- <div id="main" style="width: 600px;height:400px;"></div> -->
-            <el-row :gutter="20">
-                <el-col :span="12">
-                    <div id="main" ref="main" style="width: 100%;height:400px;"></div>
-                </el-col>
-                <el-col :span="12">
-                    <div id="main2" ref="main2" style="width: 100%;height:400px;"></div>
-                </el-col>
-              </el-row>
-              <el-row :gutter="20">
-                <el-col :span="12">
-                    <div id="main3" ref="main3" style="width: 100%;height:400px;"></div>
-                </el-col>
-                <el-col :span="12">
-                    <div id="main4" ref="main4" style="width: 100%;height:400px;"></div>
-                </el-col>
-              </el-row>
-              <el-row :gutter="20">
-                <el-col :span="12">
-                    <el-row>
-                        <div id="id_test1" ref="id_test1" class="grid-content bg-purple"  style="width: 100%;height:400px;"></div>
-                    </el-row>
-                </el-col>
-                <el-col :span="12">
-                  <div id="id_test2" ref="id_test2" class="grid-content bg-purple" style="width: 100%;height:200px;"></div>
-                  <div id="id_test3" ref="id_test3" class="grid-content bg-purple" style="width: 100%;height:200px;"></div>
-                </el-col>
-              </el-row>
-              <el-row>
+            <el-row>
                 <div class="body_in">
                     <div class="top">德阳电视包可视化-Echarts</div>
                     <div class="middle">
@@ -93,6 +65,34 @@
                         </div>
                     </div>
                 </div>
+              </el-row>
+            <!-- <div id="main" style="width: 600px;height:400px;"></div> -->
+            <el-row :gutter="20">
+                <el-col :span="12">
+                    <div id="main" ref="main" style="width: 100%;height:400px;"></div>
+                </el-col>
+                <el-col :span="12">
+                    <div id="main2" ref="main2" style="width: 100%;height:400px;"></div>
+                </el-col>
+              </el-row>
+              <el-row :gutter="20">
+                <el-col :span="12">
+                    <div id="main3" ref="main3" style="width: 100%;height:400px;"></div>
+                </el-col>
+                <el-col :span="12">
+                    <div id="main4" ref="main4" style="width: 100%;height:400px;"></div>
+                </el-col>
+              </el-row>
+              <el-row :gutter="20">
+                <el-col :span="12">
+                    <el-row>
+                        <div id="id_test1" ref="id_test1" class="grid-content bg-purple"  style="width: 100%;height:400px;"></div>
+                    </el-row>
+                </el-col>
+                <el-col :span="12">
+                  <div id="id_test2" ref="id_test2" class="grid-content bg-purple" style="width: 100%;height:200px;"></div>
+                  <div id="id_test3" ref="id_test3" class="grid-content bg-purple" style="width: 100%;height:200px;"></div>
+                </el-col>
               </el-row>
         </el-card>
     </div>
