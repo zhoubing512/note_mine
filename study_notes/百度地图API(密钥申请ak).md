@@ -20,4 +20,7 @@
 - **第三步 获取密钥**
 
 ![ak密钥获取](./images/ak密钥获取.png)
-
+在页面中使用(建议从2.0入手)：
+```html
+<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=8VwwVYZCfCPaVCZE7auQTP4kNqQaDKgr"></script>
+```
