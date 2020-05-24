@@ -4,7 +4,7 @@
         <el-header>
             <div>
                 <img src="../assets/heima.png" alt="">
-                <span>智能渠道可视化导航系统</span>
+                <span>营销导航系统</span>
             </div>
             <el-button type="info" @click="logout">退出</el-button>
         </el-header>
